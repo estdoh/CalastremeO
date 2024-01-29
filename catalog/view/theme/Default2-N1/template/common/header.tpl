@@ -38,18 +38,18 @@
 <?php } ?>
 
 	<!-- CSS here -->
-            <link rel="stylesheet" href="catalog/view/theme/Default2- N1/stylesheet/css/bootstrap.min.css">
-            <link rel="stylesheet" href="catalog/view/theme/Default2- N1/stylesheet/css/owl.carousel.min.css">
-            <link rel="stylesheet" href="catalog/view/theme/Default2- N1/stylesheet/css/slicknav.css">
-            <link rel="stylesheet" href="catalog/view/theme/Default2- N1/stylesheet/css/animate.min.css">
-            <link rel="stylesheet" href="catalog/view/theme/Default2- N1/stylesheet/css/magnific-popup.css">
-            <link rel="stylesheet" href="catalog/view/theme/Default2- N1/stylesheet/css/fontawesome-all.min.css">
-            <link rel="stylesheet" href="catalog/view/theme/Default2- N1/stylesheet/css/themify-icons.css">
-            <link rel="stylesheet" href="catalog/view/theme/Default2- N1/stylesheet/css/slick.css">
-            <link rel="stylesheet" href="catalog/view/theme/Default2- N1/stylesheet/css/nice-select.css">
-            <link rel="stylesheet" href="catalog/view/theme/Default2- N1/stylesheet/css/style.css">
+            <link rel="stylesheet" href="catalog/view/theme/Default2-N1/stylesheet/css/bootstrap.min.css">
+            <link rel="stylesheet" href="catalog/view/theme/Default2-N1/stylesheet/css/owl.carousel.min.css">
+            <link rel="stylesheet" href="catalog/view/theme/Default2-N1/stylesheet/css/slicknav.css">
+            <link rel="stylesheet" href="catalog/view/theme/Default2-N1/stylesheet/css/animate.min.css">
+            <link rel="stylesheet" href="catalog/view/theme/Default2-N1/stylesheet/css/magnific-popup.css">
+            <link rel="stylesheet" href="catalog/view/theme/Default2-N1/stylesheet/css/fontawesome-all.min.css">
+            <link rel="stylesheet" href="catalog/view/theme/Default2-N1/stylesheet/css/themify-icons.css">
+            <link rel="stylesheet" href="catalog/view/theme/Default2-N1/stylesheet/css/slick.css">
+            <link rel="stylesheet" href="catalog/view/theme/Default2-N1/stylesheet/css/nice-select.css">
+            <link rel="stylesheet" href="catalog/view/theme/Default2-N1/stylesheet/css/style.css">
 
-            <link rel="stylesheet" href="catalog/view/theme/Default2- N1/stylesheet/css/style-edit.css">
+            <link rel="stylesheet" href="catalog/view/theme/Default2-N1/stylesheet/css/style-edit.css">
             
             {* <link rel="stylesheet" href="catalog/view/javascript/js" type="text/javascript"> *}
             <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css">
