@@ -1,46 +1,6 @@
 <footer>
   <div class="container">
-  <div class="footer-cta pt-5 pb-5">
-  <div class="row">
-      <div class="col-xl-4 col-md-4 mb-30">
-          <div class="single-cta">
-              <i class="fas fa-map-marker-alt"></i>
-              <div class="cta-text">
-                  <h4><?php echo $text_findus; ?></h4>
-                  <span>LA PAZ 2150 – Martínez
-                  Bs As – Arg</span>
-              </div>
-          </div>
-      </div>
-      <div class="col-xl-4 col-md-4 mb-30">
-          <div class="single-cta">
-              <i class="fas fa-phone"></i>
-              <div class="cta-text">
-                  <h4><?php echo $text_callus; ?></h4>
-                  <span>+549 11 6199-5308</span>
-              </div>
-          </div>
-      </div>
-      <div class="col-xl-4 col-md-4 mb-30">
-          <div class="single-cta">
-              <i class="far fa-envelope-open"></i>
-              <div class="cta-text">
-                  <h4><?php echo $text_mailus; ?></h4>
-                  <span>info@calastreme.com.ar</span>
-              </div>
-          </div>
-      </div>
-  </div>
-  <hr>
-</div>
     <div class="row">
-      <div class="col-sm-6">
-      <a href="index.html" class="big-logo">
-        <img src="image\catalog\calastreme\logo\logo_footer_Color2.png" alt="">
-      </a>
-        <h2 class="whitetext"><?php echo $text_aboutus; ?></h2>
-      </div>
-
       <?php if ($informations) { ?>
       <div class="col-sm-3">
         <h5><?php echo $text_information; ?></h5>
@@ -51,13 +11,30 @@
         </ul>
       </div>
       <?php } ?>
-    
+      <div class="col-sm-3">
+        <h5><?php echo $text_service; ?></h5>
+        <ul class="list-unstyled">
+          <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+          <li><a href="<?php echo $return; ?>"><?php echo $text_return; ?></a></li>
+          <li><a href="<?php echo $sitemap; ?>"><?php echo $text_sitemap; ?></a></li>
+        </ul>
+      </div>
+      <div class="col-sm-3">
+        <h5><?php echo $text_extra; ?></h5>
+        <ul class="list-unstyled">
+          <li><a href="<?php echo $manufacturer; ?>"><?php echo $text_manufacturer; ?></a></li>
+          <li><a href="<?php echo $voucher; ?>"><?php echo $text_voucher; ?></a></li>
+          <li><a href="<?php echo $affiliate; ?>"><?php echo $text_affiliate; ?></a></li>
+          <li><a href="<?php echo $special; ?>"><?php echo $text_special; ?></a></li>
+        </ul>
+      </div>
       <div class="col-sm-3">
         <h5><?php echo $text_account; ?></h5>
         <ul class="list-unstyled">
           <li><a href="<?php echo $account; ?>"><?php echo $text_account; ?></a></li>
           <li><a href="<?php echo $order; ?>"><?php echo $text_order; ?></a></li>
-          <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>          <li><a href="<?php echo $newsletter; ?>"><?php echo $text_newsletter; ?></a></li>
+          <li><a href="<?php echo $wishlist; ?>"><?php echo $text_wishlist; ?></a></li>
+          <li><a href="<?php echo $newsletter; ?>"><?php echo $text_newsletter; ?></a></li>
         </ul>
       </div>
     </div>
