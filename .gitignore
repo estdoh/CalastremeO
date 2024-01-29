@@ -21,6 +21,8 @@
 # Templates Files
 /image/templates/*
 /image/templates/default.jpg
+/image/catalog/demo/*
+/image/catalog/limbo/*
 
 # Download Files
 /system/storage/download/*
