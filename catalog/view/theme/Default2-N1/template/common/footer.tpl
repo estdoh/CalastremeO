@@ -1,44 +1,45 @@
 <footer>
   <div class="container">
   <div class="footer-cta pt-5 pb-5">
-  <div class="row">
-      <div class="col-xl-4 col-md-4 mb-30">
-          <div class="single-cta">
-              <i class="fas fa-map-marker-alt"></i>
-              <div class="cta-text">
-                  <h4><?php echo $text_findus; ?></h4>
-                  <span>LA PAZ 2150 – Martínez
-                  Bs As – Arg</span>
-              </div>
-          </div>
+      <div class="row">
+        <div class="col-xl-4 col-md-4 mb-30">
+            <div class="single-cta">
+                <i class="fas fa-map-marker-alt"></i>
+                <div class="cta-text">
+                    <h4><?php echo $text_findus; ?></h4>
+                    <span>LA PAZ 2150 – Martínez
+                    Bs As – Arg</span>
+                </div>
+            </div>
+        </div>
+        <div class="col-xl-4 col-md-4 mb-30">
+            <div class="single-cta">
+                <i class="fas fa-phone"></i>
+                <div class="cta-text">
+                    <h4><?php echo $text_callus; ?></h4>
+                    <span>+549 11 6199-5308</span>
+                </div>
+            </div>
+        </div>
+        <div class="col-xl-4 col-md-4 mb-30">
+            <div class="single-cta">
+                <i class="far fa-envelope-open"></i>
+                <div class="cta-text">
+                    <h4><?php echo $text_mailus; ?></h4>
+                    <span>info@calastreme.com.ar</span>
+                </div>
+            </div>
+        </div>
       </div>
-      <div class="col-xl-4 col-md-4 mb-30">
-          <div class="single-cta">
-              <i class="fas fa-phone"></i>
-              <div class="cta-text">
-                  <h4><?php echo $text_callus; ?></h4>
-                  <span>+549 11 6199-5308</span>
-              </div>
-          </div>
-      </div>
-      <div class="col-xl-4 col-md-4 mb-30">
-          <div class="single-cta">
-              <i class="far fa-envelope-open"></i>
-              <div class="cta-text">
-                  <h4><?php echo $text_mailus; ?></h4>
-                  <span>info@calastreme.com.ar</span>
-              </div>
-          </div>
-      </div>
+    
   </div>
   <hr>
-</div>
     <div class="row">
       <div class="col-sm-6">
       <a href="index.html" class="big-logo">
         <img src="image\catalog\calastreme\logo\logo_footer_Color2.png" alt="">
       </a>
-        <h2 class="whitetext"><?php echo $text_aboutus; ?></h2>
+        <h2 class="whitetext p-5"><?php echo $text_aboutus; ?></h2>
       </div>
 
       <?php if ($informations) { ?>

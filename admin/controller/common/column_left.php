@@ -263,14 +263,6 @@ class ControllerCommonColumnLeft extends Controller {
 			// Sales
 			$sale = array();
 
-			if ($this->user->hasPermission('access', 'sale/order_work')) {
-				$sale[] = array(
-					'name'	   => $this->language->get('text_order'),
-					'href'     => $this->url->link('sale/order_work', 'token=' . $this->session->data['token'], true),
-					'children' => array()		
-				);	
-			}
-
 			if ($this->user->hasPermission('access', 'sale/order')) {
 				$sale[] = array(
 					'name'	   => $this->language->get('text_order'),

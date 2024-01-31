@@ -22,7 +22,6 @@
 <script src="catalog/view/javascript/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
 <link href="catalog/view/javascript/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
 <link href="//fonts.googleapis.com/css?family=Open+Sans:400,400i,300,700" rel="stylesheet" type="text/css" />
-<link href="catalog/view/theme/default/stylesheet/stylesheet.css" rel="stylesheet">
 <?php foreach ($styles as $style) { ?>
 <link href="<?php echo $style['href']; ?>" type="text/css" rel="<?php echo $style['rel']; ?>" media="<?php echo $style['media']; ?>" />
 <?php } ?>
@@ -36,6 +35,8 @@
 <?php foreach ($analytics as $analytic) { ?>
 <?php echo $analytic; ?>
 <?php } ?>
+
+<link href="catalog/view/theme/Default2-N1/stylesheet/stylesheet.css" rel="stylesheet">
 
 	<!-- CSS here -->
             <link rel="stylesheet" href="catalog/view/theme/Default2-N1/stylesheet/css/bootstrap.min.css">
@@ -51,7 +52,7 @@
 
             <link rel="stylesheet" href="catalog/view/theme/Default2-N1/stylesheet/css/style-edit.css">
             
-            {* <link rel="stylesheet" href="catalog/view/javascript/js" type="text/javascript"> *}
+            
             <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css">
             <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/v4-shims.css">   
             
@@ -62,13 +63,6 @@
     
 
 
-{* ¨<header>
-  <div class="container">
-    <div class="row ">   
-      
-    </div>
-  </div>
-</header> *}
 <header>  
   <div class="header-area header-transparent">
     <div class="main-header ">            

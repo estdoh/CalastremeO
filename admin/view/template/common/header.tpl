@@ -62,9 +62,9 @@
     <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-chevron-circle-down fa-lg"></i></a>
       <ul class="dropdown-menu dropdown-menu-right">
         <li class="dropdown-header">Links Acceso Rápido</li>
-        <?php foreach ($stores as $store) { ?>
+       <!-- <?php foreach ($stores as $store) { ?>
         <li><a href="<?php echo $store['href']; ?>" target="_blank"><i class="fa fa-shopping-cart fa-fw"></i> <?php echo $store['name']; ?></a></li>
-        <?php } ?>
+        <?php } ?> -->
         <li><a href="https://www.instagram.com/" target="_blank"><i class="fa fa-facebook fa-fw"></i>  Facebook</a></li>
         <li><a href="https://www.facebook.com/" target="_blank"><i class="fa fa-instagram fa-fw"></i>  Instagram</a></li>
         <li><a href="https://www.mail.google.com" target="_blank"><i class="fa fa-envelope fa-fw"></i>  Gmail</a></li>
