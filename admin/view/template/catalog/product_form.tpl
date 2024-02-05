@@ -29,14 +29,14 @@
             <li class="active"><a href="#tab-general" data-toggle="tab"><?php echo $tab_general; ?></a></li>
             <li><a href="#tab-data" data-toggle="tab"><?php echo $tab_data; ?></a></li>
             <li><a href="#tab-links" data-toggle="tab"><?php echo $tab_links; ?></a></li>
-            <li><a href="#tab-attribute" data-toggle="tab"><?php echo $tab_attribute; ?></a></li>
+            <li><a href="#tab-attribute" data-toggle="tab" class="d-none"><?php echo $tab_attribute; ?></a></li>
             <li><a href="#tab-option" data-toggle="tab"><?php echo $tab_option; ?></a></li>
             <!--<li><a href="#tab-recurring" data-toggle="tab"><?php echo $tab_recurring; ?></a></li>-->
-            <li><a href="#tab-discount" data-toggle="tab"><?php echo $tab_discount; ?></a></li>
-            <li><a href="#tab-special" data-toggle="tab"><?php echo $tab_special; ?></a></li>
+            <li><a href="#tab-discount" data-toggle="tab" class="d-none"><?php echo $tab_discount; ?></a></li>
+            <li><a href="#tab-special" data-toggle="tab" class="d-none"><?php echo $tab_special; ?></a></li>
             <li><a href="#tab-image" data-toggle="tab"><?php echo $tab_image; ?></a></li>
             <!--<li><a href="#tab-reward" data-toggle="tab"><?php echo $tab_reward; ?></a></li>-->
-            <li><a href="#tab-design" data-toggle="tab"><?php echo $tab_design; ?></a></li>
+            <li><a href="#tab-design" data-toggle="tab" class="d-none"><?php echo $tab_design; ?></a></li>
           </ul>
           <div class="tab-content">
             <div class="tab-pane active" id="tab-general">
@@ -105,38 +105,38 @@
                 </div>
               </div>
               
-              <div class="form-group " display="none" >
+              <div class="form-group d-none" >
                 <label class="col-sm-2 control-label" for="input-sku"><span data-toggle="tooltip" title="<?php echo $help_sku; ?>"><?php echo $entry_sku; ?></span></label>
                 <div class="col-sm-10">
                   <input type="text" name="sku" value="<?php echo $sku; ?>" placeholder="<?php echo $entry_sku; ?>" id="input-sku" class="form-control" />
                 </div>
               </div>
               
-              <div class="form-group">
+              <div class="form-group  d-none">
                 <label class="col-sm-2 control-label" for="input-upc"><span data-toggle="tooltip" title="<?php echo $help_upc; ?>"><?php echo $entry_upc; ?></span></label>
                 <div class="col-sm-10">
                   <input type="text" name="upc" value="<?php echo $upc; ?>" placeholder="<?php echo $entry_upc; ?>" id="input-upc" class="form-control" />
                 </div>
               </div>
-              <div class="form-group">
+              <div class="form-group  d-none">
                 <label class="col-sm-2 control-label" for="input-ean"><span data-toggle="tooltip" title="<?php echo $help_ean; ?>"><?php echo $entry_ean; ?></span></label>
                 <div class="col-sm-10">
                   <input type="text" name="ean" value="<?php echo $ean; ?>" placeholder="<?php echo $entry_ean; ?>" id="input-ean" class="form-control" />
                 </div>
               </div>
-              <div class="form-group">
+              <div class="form-group  d-none">
                 <label class="col-sm-2 control-label" for="input-jan"><span data-toggle="tooltip" title="<?php echo $help_jan; ?>"><?php echo $entry_jan; ?></span></label>
                 <div class="col-sm-10">
                   <input type="text" name="jan" value="<?php echo $jan; ?>" placeholder="<?php echo $entry_jan; ?>" id="input-jan" class="form-control" />
                 </div>
               </div>
-              <div class="form-group">
+              <div class="form-group  d-none">
                 <label class="col-sm-2 control-label" for="input-isbn"><span data-toggle="tooltip" title="<?php echo $help_isbn; ?>"><?php echo $entry_isbn; ?></span></label>
                 <div class="col-sm-10">
                   <input type="text" name="isbn" value="<?php echo $isbn; ?>" placeholder="<?php echo $entry_isbn; ?>" id="input-isbn" class="form-control" />
                 </div>
               </div>
-              <div class="form-group">
+              <div class="form-group  d-none">
                 <label class="col-sm-2 control-label" for="input-mpn"><span data-toggle="tooltip" title="<?php echo $help_mpn; ?>"><?php echo $entry_mpn; ?></span></label>
                 <div class="col-sm-10">
                   <input type="text" name="mpn" value="<?php echo $mpn; ?>" placeholder="<?php echo $entry_mpn; ?>" id="input-mpn" class="form-control" />
@@ -156,7 +156,7 @@
                 </div>
               </div>
               
-              <div class="form-group">
+              <div class="form-group  d-none">
                 <label class="col-sm-2 control-label" for="input-tax-class"><?php echo $entry_tax_class; ?></label>
                 <div class="col-sm-10">
                   <select name="tax_class_id" id="input-tax-class" class="form-control">
@@ -184,22 +184,22 @@
                   <input type="text" name="minimum" value="<?php echo $minimum; ?>" placeholder="<?php echo $entry_minimum; ?>" id="input-minimum" class="form-control" />
                 </div>
               </div>
-              <div class="form-group">
+              <div class="form-group d-none">
                 <label class="col-sm-2 control-label" for="input-subtract"><?php echo $entry_subtract; ?></label>
                 <div class="col-sm-10">
                   <select name="subtract" id="input-subtract" class="form-control">
                     <?php if ($subtract) { ?>
-                    <option value="1"><?php echo $text_yes; ?></option>
-                    <option value="0" selected="selected"><?php echo $text_no; ?></option>
+                    <option value="1"><?php echo $text_no; ?></option>
+                    <option value="0" selected="selected"><?php echo $text_yes; ?></option>
                     <?php } else { ?>
-                    <option value="1" selected="selected"><?php echo $text_yes; ?></option>
-                    <option value="0"><?php echo $text_no; ?></option>
+                    <option value="1" selected="selected"><?php echo $text_no; ?></option>
+                    <option value="0"><?php echo $text_yes; ?></option>
                     
                     <?php } ?>
                   </select>
                 </div>
               </div>
-              <div class="form-group">
+              <div class="form-group d-none">
                 <label class="col-sm-2 control-label" for="input-stock-status"><span data-toggle="tooltip" title="<?php echo $help_stock_status; ?>"><?php echo $entry_stock_status; ?></span></label>
                 <div class="col-sm-10">
                   <select name="stock_status_id" id="input-stock-status" class="form-control">
@@ -245,7 +245,7 @@
                   <?php } ?>
                 </div>
               </div>
-              <div class="form-group">
+              <div class="form-group d-none">
                 <label class="col-sm-2 control-label" for="input-date-available"><?php echo $entry_date_available; ?></label>
                 <div class="col-sm-3">
                   <div class="input-group date">
@@ -258,7 +258,7 @@
 
 
               
-              <div class="form-group">
+              <div class="form-group d-none">
                 <label class="col-sm-2 control-label" for="input-length"><?php echo $entry_dimension; ?></label>
                 <div class="col-sm-10">
                   <div class="row">
@@ -274,7 +274,7 @@
                   </div>
                 </div>
               </div>
-              <div class="form-group">
+              <div class="form-group d-none">
                 <label class="col-sm-2 control-label" for="input-length-class"><?php echo $entry_length_class; ?></label>
                 <div class="col-sm-10">
                   <select name="length_class_id" id="input-length-class" class="form-control">
@@ -290,13 +290,13 @@
               </div>
 
               
-              <div class="form-group">
+              <div class="form-group d-none">
                 <label class="col-sm-2 control-label" for="input-weight"><?php echo $entry_weight; ?></label>
                 <div class="col-sm-10">
                   <input type="text" name="weight" value="<?php echo $weight; ?>" placeholder="<?php echo $entry_weight; ?>" id="input-weight" class="form-control" />
                 </div>
               </div>
-              <div class="form-group">
+              <div class="form-group d-none">
                 <label class="col-sm-2 control-label" for="input-weight-class"><?php echo $entry_weight_class; ?></label>
                 <div class="col-sm-10">
                   <select name="weight_class_id" id="input-weight-class" class="form-control">
@@ -404,7 +404,7 @@
               </div>
 
               
-              <div class="form-group">
+              <div class="form-group d-none">
                 <label class="col-sm-2 control-label" for="input-download"><span data-toggle="tooltip" title="<?php echo $help_download; ?>"><?php echo $entry_download; ?></span></label>
                 <div class="col-sm-10">
                   <input type="text" name="download" value="" placeholder="<?php echo $entry_download; ?>" id="input-download" class="form-control" />
