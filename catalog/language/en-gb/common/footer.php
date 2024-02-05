@@ -1,6 +1,8 @@
 <?php
 // Text
-$_['text_about']      = 'Laboratorio Calastremé es una empresa Argentina comprometida con la salud y el bienestar animal. Desde su fundación en 1907 se ha dedicado íntegramente a la investigación, desarrollo, registro y comercialización de productos para uso veterinario en animales de producción y animales de compañía.';
+$_['text_about']      = '<strong>Laboratorio Calastremé</strong>
+<strong class="resaltado2">Desde su fundación en 1907</strong> 
+se ha dedicado íntegramente a la investigación, desarrollo, registro y comercialización de productos para uso veterinario.';
 $_['text_information']  = 'Information';
 $_['text_service']      = 'Customer Service';
 $_['text_extra']        = 'Extras';
@@ -15,4 +17,11 @@ $_['text_account']      = 'My Account';
 $_['text_order']        = 'Order History';
 $_['text_wishlist']     = 'Wish List';
 $_['text_newsletter']   = 'Newsletter';
-$_['text_powered']      = 'Powered By <a href="http://www.dohestudio.com.ar">OpenCart</a><br /> %s &copy; %s';
+$_['text_powered']      = '%s &copy; 1907 - %s Todos los Derechos Reservados |';
+$_['text_callus']      = 'Call us';
+$_['text_mailus']      = 'Send Mai';
+$_['text_findus']      = 'Find us';
+$_['text_aboutus']      = '<strong>Laboratorio Calastremé</strong>
+<strong class="resaltado2">Desde su fundación en 1907</strong> se ha dedicado íntegramente a la investigación, desarrollo, registro y comercialización de productos para uso veterinario.
+';
+

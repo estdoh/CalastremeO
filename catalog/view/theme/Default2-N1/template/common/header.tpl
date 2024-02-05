@@ -69,34 +69,39 @@
       <div class="header-bottom  header-sticky">
         <div class="container-fluid">
           <div class="row align-items-center justify-content-between">
-              <!-- Logo -->
-              <div class="col-xl-2 col-lg-2 col-md-1">
-                  <div class="logo">
-                      <!-- logo-1 -->
-                      <a href="index.html" class="big-logo"><img src="image\catalog\calastreme\logo\logo2.png" alt=""></a>
-                      <!-- logo-2 -->
-                      <a href="index.html" class="small-logo"><img src="image\catalog\calastreme\logo\logo2.png" alt=""></a>
-                  </div>
-              </div>
-              <div class="col-xl-8 col-lg-8 col-md-8">
-                  <!-- Main-menu -->
-                  <div class="main-menu f-right d-none d-lg-block">
-                      <nav> 
-                          <ul id="navigation">                                                                                                                   
-                              <li><a href="index.html" >Home</a></li>
-                              <li><a href="#about" >Nosotros</a></li>
-                              <li><a href="#products">Productos</a></li>
-                              <!-- <li><a href="#">Servicios</a></li>                                             -->
-                              <li><a href="#contacto">Contacto</a></li>
-                          </ul>
-                      </nav>
-                  </div>
-              </div>             
-              <!-- <div class="col-xl-2 col-lg-2 col-md-3">
-                  <div class="header-right-btn f-right d-none d-lg-block">
-                      <a href="#" class="btn">Contacto</a>
-                  </div>
-              </div> -->
+            <!-- Logo -->
+            <div class="col-xl-2 col-lg-2 col-md-1">
+                <div class="logo">
+                    <!-- logo-1 -->
+                    <a href="index.html" class="big-logo"><img src="image\catalog\calastreme\logo\logo2.png" alt=""></a>
+                    <!-- logo-2 -->
+                    <a href="index.html" class="small-logo"><img src="image\catalog\calastreme\logo\logo2.png" alt=""></a>
+                </div>
+            </div>
+            <div class="col-xl-8 col-lg-8 col-md-8">
+                <!-- Main-menu -->
+                <div class="main-menu f-right d-none d-lg-block">
+                    <nav> 
+                        <ul id="navigation">                                                                                                                   
+                            <li><a href="index.html" >Home</a></li>
+                            <li><a href="#about" >Nosotros</a></li>
+                            <li><a href="#products">Productos</a></li>
+                            <!-- <li><a href="#">Servicios</a></li>                                             -->
+                            <li><a href="#contacto">Contacto</a></li>
+                            <li><?php echo $search; ?></li>
+                            <!--<li><?php echo $currency; ?>
+                            <?php echo $language; ?></li> --->
+                        </ul>
+                    </nav>
+                    
+                </div>
+            </div>             
+            <div class="col-xl-2 col-lg-2 col-md-3">
+              <div class="header-right-btn f-right d-none d-lg-block">
+              <?php echo $currency; ?>
+              <?php echo $language; ?>
+            </div>
+          </div> 
               <!-- Mobile Menu -->
               <div class="col-12">
                   <div class="mobile_menu d-block d-lg-none"></div>
@@ -109,6 +114,4 @@
 </header>
 
 
-<main>
 
-<

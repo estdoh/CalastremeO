@@ -1,6 +1,6 @@
 <footer>
   <div class="container">
-  <div class="footer-cta pt-5 pb-5">
+  <div class="pt-5">
       <div class="row">
         <div class="col-xl-4 col-md-4 mb-30">
             <div class="single-cta">
@@ -43,7 +43,7 @@
       </div>
 
       <?php if ($informations) { ?>
-      <div class="col-sm-3">
+      <div class="col-6 col-sm-3">
         <h5><?php echo $text_information; ?></h5>
         <ul class="list-unstyled">
           <?php foreach ($informations as $information) { ?>
@@ -53,7 +53,7 @@
       </div>
       <?php } ?>
     
-      <div class="col-sm-3">
+      <div class="col-6 col-sm-3">
         <h5><?php echo $text_account; ?></h5>
         <ul class="list-unstyled">
           <li><a href="<?php echo $account; ?>"><?php echo $text_account; ?></a></li>
@@ -63,7 +63,12 @@
       </div>
     </div>
     <hr>
-    <p><?php echo $powered; ?></p>
+    <div class="col-md-9 text-md-left mb-3 mb-md-0">
+      <div class="d-inline-block mr-md-2">
+        <p><?php echo $powered; ?></p>
+      </div>
+      <i class="fas fa-bolt text-md-rigth"></i> Design by <a href="https://dohestudio.com.ar" target="_blank">DOH estudio.com.ar</a>
+    </div>
   </div>
 </footer>
 
@@ -110,6 +115,6 @@
             <script src="catalog/view/javascript/js/plugins.js"></script>
             <script src="catalog/view/javascript/js/main.js"></script>
 
-
+<script src="catalog/view/javascript/colorcategory.js"></script>
 
 </body></html>

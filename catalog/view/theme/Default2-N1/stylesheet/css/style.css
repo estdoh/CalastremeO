@@ -122,7 +122,7 @@ p {
   font-family: "Barlow", sans-serif;
   color: "Barlow", sans-serif;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 30px;
   margin-bottom: 15px;
   font-weight: normal;
 }
@@ -358,7 +358,7 @@ hr {
   top: 0;
   width: 101%;
   height: 101%;
-  background: #e25311;
+  background: #11b1e2;
   z-index: 1;
   transition: transform 0.5s;
   transition-timing-function: ease;
@@ -2261,7 +2261,7 @@ hr {
   }
 }
 .slider-height2 {
-  min-height: 590px;
+  min-height: 700px;
   background-repeat: no-repeat;
   background-position: center center;
 }
@@ -3390,7 +3390,7 @@ hr {
   color: #a4acc3;
   font-weight: 500;
   line-height: 1.5;
-  padding: 0 3px;
+  /* padding: 0 3px; */
   margin-bottom: 50px;
   font-size: 16px;
 }
@@ -3434,11 +3434,11 @@ hr {
   -ms-transition: all 0.3s ease-out 0s;
   -o-transition: all 0.3s ease-out 0s;
   transition: all 0.3s ease-out 0s;
-  color: #616373;
+  color: #ffffff;
   background: none;
   margin: 0 auto;
   bottom: 0;
-  border: 1px solid #616373;
+  border: 1px solid #ffffff;
 }
 .h1-testimonial-active button.slick-next {
   right: -40px;

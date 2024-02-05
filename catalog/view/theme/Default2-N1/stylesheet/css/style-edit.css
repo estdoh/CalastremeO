@@ -19,6 +19,7 @@ html{
 }
 .services-area1 {
     text-align: -webkit-center;
+    /* text-align: justify; */
 }
 
 .service-cap {
@@ -250,3 +251,35 @@ ul {
 .whitetext{
     color: #ffffff;
 }
+
+.anestesicos {
+  list-style: none;
+  background-color: #0080ff;
+  color: white !important;
+}
+
+.asd {
+  color: #1696e7;
+  outline: medium none;
+}
+
+.workareas{
+  width: 30%;
+}
+@media (min-width: 1200px){
+  .traslatedown{
+    transform: translateY(25%);
+  }
+
+}
+
+.row {
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
+.language-btn{
+  background: #8ed2eb00;
+  color: black;
+}
+

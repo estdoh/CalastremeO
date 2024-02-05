@@ -22,7 +22,7 @@ class ControllerCommonFooter extends Controller {
 		$data['text_callus'] = $this->language->get('text_callus');
 		$data['text_findus'] = $this->language->get('text_findus');
 		$data['text_mailus'] = $this->language->get('text_mailus');
-		$data['text_aboutus'] = $this->language->get('text_about');
+		$data['text_aboutus'] = $this->language->get('text_aboutus');
 
 		$this->load->model('catalog/information');
 

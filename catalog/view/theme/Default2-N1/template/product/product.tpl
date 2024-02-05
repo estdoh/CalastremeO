@@ -125,14 +125,16 @@
           </div> -->
           <h1><?php echo $heading_title; ?></h1>
           <ul class="list-unstyled">
-            <?php if ($manufacturer) { ?>
+            <!-- <?php if ($manufacturer) { ?>
             <li><?php echo $text_manufacturer; ?> <a href="<?php echo $manufacturers; ?>"><?php echo $manufacturer; ?></a></li>
-            <?php } ?>
+            <?php } ?> 
             <li><?php echo $text_model; ?> <?php echo $model; ?></li>
+            -->
+            <li><?php echo $model; ?></li>
             <?php if ($reward) { ?>
             <li><?php echo $text_reward; ?> <?php echo $reward; ?></li>
             <?php } ?>
-            <li><?php echo $text_stock; ?> <?php echo $stock; ?></li>
+           <!-- <li><?php echo $text_stock; ?> <?php echo $stock; ?></li> -->
           </ul>
           <?php if ($price) { ?>
           <ul class="list-unstyled">
@@ -288,6 +290,7 @@
               <div class="help-block" id="recurring-description"></div>
             </div>
             <?php } ?>
+            <?php if ($price) { ?>
             <div class="form-group">
               <label class="control-label" for="input-quantity"><?php echo $entry_qty; ?></label>
               <input type="text" name="quantity" value="<?php echo $minimum; ?>" size="2" id="input-quantity" class="form-control" />
@@ -295,6 +298,7 @@
               <br />
               <button type="button" id="button-cart" data-loading-text="<?php echo $text_loading; ?>" class="btn btn-primary btn-lg btn-block"><?php echo $button_cart; ?></button>
             </div>
+            <?php } ?>
             <?php if ($minimum > 1) { ?>
             <div class="alert alert-info"><i class="fa fa-info-circle"></i> <?php echo $text_minimum; ?></div>
             <?php } ?>
@@ -361,11 +365,13 @@
               </p>
               <?php } ?>
             </div>
+            
             <div class="button-group">
               <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>', '<?php echo $product['minimum']; ?>');"><span class="hidden-xs hidden-sm hidden-md"><?php echo $button_cart; ?></span> <i class="fa fa-shopping-cart"></i></button>
               <button type="button" data-toggle="tooltip" title="<?php echo $button_wishlist; ?>" onclick="wishlist.add('<?php echo $product['product_id']; ?>');"><i class="fa fa-heart"></i></button>
               <button type="button" data-toggle="tooltip" title="<?php echo $button_compare; ?>" onclick="compare.add('<?php echo $product['product_id']; ?>');"><i class="fa fa-exchange"></i></button>
             </div>
+            
           </div>
         </div>
         <?php if (($column_left && $column_right) && (($i+1) % 2 == 0)) { ?>
