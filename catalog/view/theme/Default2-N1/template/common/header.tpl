@@ -73,9 +73,9 @@
             <div class="col-xl-2 col-lg-2 col-md-1">
                 <div class="logo">
                     <!-- logo-1 -->
-                    <a href="index.html" class="big-logo"><img src="image\catalog\calastreme\logo\logo2.png" alt=""></a>
+                    <a href="#" class="big-logo"><img src="image\catalog\calastreme\logo\logo2.png" alt=""></a>
                     <!-- logo-2 -->
-                    <a href="index.html" class="small-logo"><img src="image\catalog\calastreme\logo\logo2.png" alt=""></a>
+                    <a href="#" class="small-logo"><img src="image\catalog\calastreme\logo\logo2.png" alt=""></a>
                 </div>
             </div>
             <div class="col-xl-8 col-lg-8 col-md-8">
@@ -83,7 +83,7 @@
                 <div class="main-menu f-right d-none d-lg-block">
                     <nav> 
                         <ul id="navigation">                                                                                                                   
-                            <li><a href="index.html" >Home</a></li>
+                            <li><a href="#" >Home</a></li>
                             <li><a href="#about" >Nosotros</a></li>
                             <li><a href="#products">Productos</a></li>
                             <!-- <li><a href="#">Servicios</a></li>                                             -->
