@@ -55,6 +55,7 @@ select.form-control, textarea.form-control, input[type="text"].form-control, inp
 .input-group .input-group-addon {
 	font-size: 12px;
 	height: 30px;
+	display: contents;
 }
 /* Fix some bootstrap issues */
 span.hidden-xs, span.hidden-sm, span.hidden-md, span.hidden-lg {

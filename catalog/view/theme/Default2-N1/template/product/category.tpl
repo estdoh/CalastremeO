@@ -29,7 +29,7 @@
       <?php if ($categories) { ?>
       <h3><?php echo $text_refine; ?></h3>
       <?php if (count($categories) <= 5) { ?>
-      <div class="row">
+      <div class="row pt-4 pb-4">
         <div class="col-sm-3">
           <ul>
             <?php foreach ($categories as $category) { ?>
@@ -39,7 +39,7 @@
         </div>
       </div>
       <?php } else { ?>
-      <div class="row">
+      <div class="row pt-4 pb-4">
         <?php foreach (array_chunk($categories, ceil(count($categories) / 4)) as $categories) { ?>
         <div class="col-sm-3">
           <ul>
@@ -53,8 +53,8 @@
       <?php } ?>
       <?php } ?>
       <?php if ($products) { ?>
-      <div class="row">
-        <div class="col-md-2 col-sm-6 hidden-xs">
+      <div class="row d-flex justify-content-around p-4">
+        <div class="col-md-2 col-sm-6 hidden-xs d-flex align-items-center">
           <div class="btn-group btn-group-sm">
             <button type="button" id="list-view" class="btn btn-default" data-toggle="tooltip" title="<?php echo $button_list; ?>"><i class="fa fa-th-list"></i></button>
             <button type="button" id="grid-view" class="btn btn-default" data-toggle="tooltip" title="<?php echo $button_grid; ?>"><i class="fa fa-th"></i></button>
@@ -66,7 +66,7 @@
           </div>
         </div> -->
         <div class="col-md-4 col-xs-6">
-          <div class="form-group input-group input-group-sm">
+          <div class="form-group input-group input-group-sm d-flex align-items-center">
             <label class="input-group-addon" for="input-sort"><?php echo $text_sort; ?></label>
             <select id="input-sort" class="form-control" onchange="location = this.value;">
               <?php foreach ($sorts as $sorts) { ?>
@@ -80,7 +80,7 @@
           </div>
         </div>
         <div class="col-md-3 col-xs-6">
-          <div class="form-group input-group input-group-sm">
+          <div class="form-group input-group input-group-sm d-flex align-items-center">
             <label class="input-group-addon" for="input-limit"><?php echo $text_limit; ?></label>
             <select id="input-limit" class="form-control" onchange="location = this.value;">
               <?php foreach ($limits as $limits) { ?>
@@ -101,7 +101,7 @@
           <div class="product-thumb">
             <div class="image"><a href="<?php echo $product['href']; ?>"><img src="<?php echo $product['thumb']; ?>" alt="<?php echo $product['name']; ?>" title="<?php echo $product['name']; ?>" class="img-responsive" /></a></div>
             <div>
-              <div class="caption">
+              <div class="caption pt-3 mh-0">
                 <h4><a href="<?php echo $product['href']; ?>"><?php echo $product['name']; ?></a></h4>
                 <!-- <p><?php echo $product['description']; ?></p> -->
                 <p><?php echo $product['model'] ?></p>

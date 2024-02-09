@@ -88,19 +88,30 @@
                             <li><a href="#products">Productos</a></li>
                             <!-- <li><a href="#">Servicios</a></li>                                             -->
                             <li><a href="#contacto">Contacto</a></li>
-                            <li><?php echo $search; ?></li>
-                            <!--<li><?php echo $currency; ?>
-                            <?php echo $language; ?></li> --->
+                            <li><a href="#contacto">Comercio Exterior</a></li>
+                            <li>
+                              <div class="dropdown">
+                                <button class="btnheader btn-secondary btn-sm dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                  <i class="fa fa-search" aria-hidden="true"></i>
+                                </button>
+                                <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenu2">
+                                  <?php echo $search; ?>
+                                </div>
+                              </div>
+                            </li>
+                            <li>
+                              
+                              <div class="header-right-btn">
+                                <?php echo $currency; ?>
+                                <?php echo $language; ?>
+                              </div>
+                            </li>
                         </ul>
                     </nav>
                     
                 </div>
             </div>             
-            <div class="col-xl-2 col-lg-2 col-md-3">
-              <div class="header-right-btn f-right d-none d-lg-block">
-              <?php echo $currency; ?>
-              <?php echo $language; ?>
-            </div>
+            
           </div> 
               <!-- Mobile Menu -->
               <div class="col-12">

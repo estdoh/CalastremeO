@@ -76,6 +76,12 @@
       </div>
       <i class="fas fa-bolt text-md-rigth"></i> Design by <a href="https://dohestudio.com.ar" target="_blank">DOH estudio.com.ar</a>
     </div>
+    <div>
+    <ul class="nav col-md-3 justify-content-end aling-items-center list-unstyled d-flex">
+      <li class="ms-3"><a class="text-muted" href="#"><i class="fa fa-facebook"></i></a></li>
+      <li class="ms-3"><a class="text-muted" href="#"><i class="fa fa fa-linkedin"></i></a></li>
+      <li class="ms-3"><a class="text-muted" href="#"><i class="fa fa-instagram"></i></a></li>
+    </ul></div>
   </div>
 </footer>
 
