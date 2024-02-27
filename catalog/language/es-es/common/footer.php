@@ -14,10 +14,10 @@ $_['text_account']      = 'Mi Cuenta';
 $_['text_order']        = 'Ordenes';
 $_['text_wishlist']     = 'Favoritos';
 $_['text_newsletter']   = 'Noticias';
-$_['text_powered']      = '%s &copy; 1907 - %s Todos los Derechos Reservados |';
-$_['text_callus']      = 'Llamanos';
-$_['text_mailus']      = 'Escribinos';
-$_['text_findus']      = 'Encontranos';
-$_['text_aboutus']      = '<strong>Laboratorio Calastremé</strong>
-<strong class="resaltado2">Desde su fundación en 1907</strong> se ha dedicado íntegramente a la investigación, desarrollo, registro y comercialización de productos para uso veterinario.
+$_['text_powered']      = '%s &copy; 1907 - %s |';
+$_['text_callus']      = 'Contactanos';
+$_['text_mailus']      = 'Correo';
+$_['text_findus']      = 'Donde estamos';
+$_['text_aboutus']      = '<strong>Laboratorio Calastremé</strong><br>
+La linea más de productos veterinarios
 ';

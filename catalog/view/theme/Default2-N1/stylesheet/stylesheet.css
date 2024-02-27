@@ -314,16 +314,18 @@ div.required .control-label:before {
 footer {
 	margin-top: 30px;
 	padding-top: 30px;
-	background-color: #303030;
-	border-top: 1px solid #ddd;
-	color: #e2e2e2;
+	/* background-color: #303030; */
+	background-color: #ffffff;
+	/* border-top: 1px solid #ddd; */
+	/* color: #e2e2e2; */
+	color: #000000;
 }
 footer hr {
 	border-top: none;
-	border-bottom: 1px solid #666;
+	border-bottom: 3px solid #1160AB;
 }
 footer a {
-	color: #ccc;
+	color: #0c0c0c;
 	font-size: medium;
 }
 footer a:hover {
@@ -334,7 +336,7 @@ footer h5 {
 	font-size: 20px;
 	font-weight: bold;
 	text-transform: uppercase;
-	color: #fff;
+	/* color: #fff; */
 }
 /* alert */
 .alert {

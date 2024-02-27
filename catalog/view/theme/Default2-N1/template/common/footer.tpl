@@ -1,6 +1,7 @@
 <footer>
   <div class="container">
-  <div class="pt-5">
+    <hr>
+    <div class="pt-5">
       <div class="row">
         <div class="col-xl-4 col-md-4 mb-30">
             <div class="single-cta">
@@ -14,7 +15,7 @@
         </div>
         <div class="col-xl-4 col-md-4 mb-30">
             <div class="single-cta">
-                <i class="fas fa-phone"></i>
+                <i class="fa fa-whatsapp"></i>
                 <div class="cta-text">
                     <h4><?php echo $text_callus; ?></h4>
                     <span>+549 11 6199-5308</span>
@@ -31,30 +32,29 @@
             </div>
         </div>
       </div>
-    
-  </div>
-  <hr>
-    <div class="row">
-      <div class="col-sm-6">
-      <a href="index.html" class="big-logo">
-        <img src="image\catalog\calastreme\logo\logo_footer_Color2.png" alt="">
-      </a>
-        <h2 class="whitetext p-5"><?php echo $text_aboutus; ?></h2>
+    </div>
+    <hr>
+    <div class="row pt-5">
+      <div class="col-md-6 col-sm-12">
+        <a href="index.html" class="big-logo">
+          <img src="image\catalog\calastreme\logo\logo_footer_Color.png" alt="">
+        </a>
+          <h2 class="p-5"><?php echo $text_aboutus; ?></h2>
       </div>
 
       <?php if ($informations) { ?>
-      <div class="col-6 col-sm-3">
+      <div class="col-6 col-md-3 col-sm-6">
         <h5><?php echo $text_information; ?></h5>
         <ul class="list-unstyled">
           <?php foreach ($informations as $information) { ?>
-          <!-- <li><a href="<?php echo $information['href']; ?>"><?php echo $information['title']; ?></a></li> -->
-          <li><a href="#"><?php echo $information['title']; ?></a></li>
+           <li><a href="<?php echo $information['href']; ?>"><?php echo $information['title']; ?></a></li> 
+          <!-- <li><a href="#"><?php echo $information['title']; ?></a></li> -->
           <?php } ?>
         </ul>
       </div>
       <?php } ?>
     
-      <div class="col-6 col-sm-3">
+      <div class="col-6 col-md-3 col-sm-6">
         <!-- <h5><?php echo $text_account; ?></h5> -->
         <h5>Categorias</h5>
         <ul class="list-unstyled">
@@ -70,18 +70,21 @@
       </div>
     </div>
     <hr>
-    <div class="col-md-9 text-md-left mb-3 mb-md-0">
-      <div class="d-inline-block mr-md-2">
-        <p><?php echo $powered; ?></p>
+    <div class="row">
+      <div class="col-md-8 text-md-left">
+        <div class="d-inline-block mr-md-2">
+          <p><?php echo $powered; ?></p>
+        </div>
+        <i class="fas fa-bolt text-md-rigth"></i> Design by <a href="https://dohestudio.com.ar" target="_blank">DOH estudio.com.ar</a>
       </div>
-      <i class="fas fa-bolt text-md-rigth"></i> Design by <a href="https://dohestudio.com.ar" target="_blank">DOH estudio.com.ar</a>
+      <div class="col-md-4 d-flex justify-content-end">
+        <ul class="nav col-md-3 justify-content-center aling-items-center list-unstyled navfootersm">
+          <li class="ms-3"><a class="text-muted" href="https://www.facebook.com/laboratoriocalastreme" target="_blank"><i class="fa fa-facebook"></i></a></li>
+          
+          <li class="ms-3"><a class="text-muted" href="https://www.instagram.com/laboratoriocalastreme" target="_blank"><i class="fa fa-instagram"></i></a></li>
+        </ul>
+      </div>
     </div>
-    <div>
-    <ul class="nav col-md-3 justify-content-end aling-items-center list-unstyled d-flex">
-      <li class="ms-3"><a class="text-muted" href="#"><i class="fa fa-facebook"></i></a></li>
-      <li class="ms-3"><a class="text-muted" href="#"><i class="fa fa fa-linkedin"></i></a></li>
-      <li class="ms-3"><a class="text-muted" href="#"><i class="fa fa-instagram"></i></a></li>
-    </ul></div>
   </div>
 </footer>
 

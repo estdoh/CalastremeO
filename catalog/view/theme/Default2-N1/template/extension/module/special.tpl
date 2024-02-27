@@ -19,7 +19,7 @@
           </div>
           <?php } ?>
           <?php if ($product['price']) { ?>
-          <p class="price">
+          <!-- <p class="price">
             <?php if (!$product['special']) { ?>
             <?php echo $product['price']; ?>
             <?php } else { ?>
@@ -28,7 +28,7 @@
             <?php if ($product['tax']) { ?>
             <span class="price-tax"><?php echo $text_tax; ?> <?php echo $product['tax']; ?></span>
             <?php } ?>
-          </p>
+          </p> -->
           <?php } ?>
         </div>
         <div class="button-group">
