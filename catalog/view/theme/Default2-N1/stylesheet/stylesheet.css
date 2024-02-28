@@ -307,9 +307,9 @@ div.required .control-label:before {
 	}
 }
 /* content */
-#content {
+/* #content {
 	min-height: 600px;
-}
+} */
 /* footer */
 footer {
 	margin-top: 30px;

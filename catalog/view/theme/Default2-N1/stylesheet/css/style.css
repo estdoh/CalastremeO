@@ -381,6 +381,19 @@ hr {
   background: #8ed2eb;
 }
 
+.btnProduct {
+  background: transparent;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  line-height: 0;
+  padding: 25px 22px;
+
+}
+
 .btn-secondary:not(:disabled):not(.disabled).active, .btn-secondary:not(:disabled):not(.disabled):active, .show>.btn-secondary.dropdown-toggle {
   color: #fff;
   background-color: #8ed2eb;
@@ -414,6 +427,13 @@ hr {
   transform: scaleX(1);
   color: #fff !important;
   z-index: -1;
+}
+
+.btnProduct:hover::before {
+  transform: scaleX(1);
+  color: #fff !important;
+  z-index: -1;
+  background-color: #8ed2eb;
 }
 .btn.focus,
 .btn:focus {

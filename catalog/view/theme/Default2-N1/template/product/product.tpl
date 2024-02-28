@@ -135,7 +135,7 @@
             <?php } ?> 
             <li><?php echo $text_model; ?> <?php echo $model; ?></li>
             -->
-            <li><?php echo $model; ?></li>
+            <p class="font-italic"><?php echo $model; ?></p>
             <?php if ($reward) { ?>
             <li><?php echo $text_reward; ?> <?php echo $reward; ?></li>
             <?php } ?>

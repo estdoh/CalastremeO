@@ -87,7 +87,7 @@
                             <li><a href="about_us" >Nosotros</a></li>
                             <li><a href="#products">Productos</a></li>
                             <!-- <li><a href="#">Servicios</a></li>                                             -->
-                            <li><a href="#Contact">Contacto</a></li>
+                            <li><a href="index.php?route=information/contact">Contacto</a></li>
                             <li><a href="comex">Comercio Exterior</a></li>
                             <li>
                               <div class="dropdown">

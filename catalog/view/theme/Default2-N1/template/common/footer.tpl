@@ -61,11 +61,12 @@
           <!-- <li><a href="<?php echo $account; ?>"><?php echo $text_account; ?></a></li>
           <li><a href="<?php echo $order; ?>"><?php echo $text_order; ?></a></li>
           <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
-          <li><a href="<?php echo $newsletter; ?>"><?php echo $text_newsletter; ?></a></li> -->
+          <li><a href="<?php echo $newsletter; ?>"><?php echo $text_newsletter; ?></a></li> 
+          <li><a href="#"><?php echo $text_newsletter; ?></a></li> -->
           <li><a href="index.php?route=product/category&path=31">Grandes Animales</a></li>
           <li><a href="index.php?route=product/category&path=33">Pequeños Animales</a></li>
           <li><a href="index.php?route=product/category&path=30">Equinos</a></li>
-          <li><a href="#"><?php echo $text_newsletter; ?></a></li>
+          
         </ul>
       </div>
     </div>

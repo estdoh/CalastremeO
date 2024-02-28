@@ -17,11 +17,11 @@ function alterStyle(breadcrumb) {
 //   mapnav.innerHTML = "";
 // });
 
-setTimeout(() => {
-  console.log("Retrasado por 1 segundo.");
-  var mapnav = document.querySelector('.i4ewOd-pzNkMb-haAclf');
-  mapnav.innerHTML = "<div></div>";
-}, "5000");
+// setTimeout(() => {
+//   console.log("Retrasado por 1 segundo.");
+//   var mapnav = document.querySelector('.i4ewOd-pzNkMb-haAclf');
+//   mapnav.innerHTML = "<div></div>";
+// }, "5000");
 
 // window.onload = function () {
 //   var mapnav = document.querySelector('.i4ewOd-pzNkMb-haAclf');

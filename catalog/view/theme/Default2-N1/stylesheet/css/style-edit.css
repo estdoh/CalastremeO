@@ -338,3 +338,27 @@ footer h5{
   line-height: 1.6;
 } 
 
+legend {
+
+  border-bottom: 0;
+}
+
+.form-horizontal .control-label {
+  padding-top: 7px;
+  margin-bottom: 0;
+  text-align: left;
+  text-transform: uppercase;
+  /* font-weight: ; */
+}
+
+.card-header {
+  background-color: transparent;
+}
+
+.card{
+  border: 0;
+}
+
+.nav-tabs>li>a {
+  font-size: small; 
+}
