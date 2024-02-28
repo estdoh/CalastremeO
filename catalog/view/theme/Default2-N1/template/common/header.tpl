@@ -84,11 +84,11 @@
                     <nav> 
                         <ul id="navigation">                                                                                                                   
                             <li><a href="#" >Home</a></li>
-                            <li><a href="#about" >Nosotros</a></li>
+                            <li><a href="about_us" >Nosotros</a></li>
                             <li><a href="#products">Productos</a></li>
                             <!-- <li><a href="#">Servicios</a></li>                                             -->
-                            <li><a href="#contacto">Contacto</a></li>
-                            <li><a href="#contacto">Comercio Exterior</a></li>
+                            <li><a href="#Contact">Contacto</a></li>
+                            <li><a href="comex">Comercio Exterior</a></li>
                             <li>
                               <div class="dropdown">
                                 <button class="btnheader btn-secondary btn-sm dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">

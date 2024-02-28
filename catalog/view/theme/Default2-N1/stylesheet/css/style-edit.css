@@ -318,3 +318,23 @@ footer h5{
   align-items: end;
   flex-direction: column;
 } 
+
+.thumbnail {
+ border: 0px;
+}
+
+.tab-pane{
+  padding-top: 20px;
+  font-size: 14px;
+}
+
+.breadcrumb {
+	padding-top: 20px;
+	background-color: transparent;
+	/* border: 1px solid #ddd; */
+}
+
+.destaque{ 
+  line-height: 1.6;
+} 
+
