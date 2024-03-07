@@ -351,9 +351,10 @@ footer h5{
   flex-direction: column;
 } 
 
+/*
 .thumbnail {
- /* border: 0px; */
-}
+  border: 0px; 
+} */
 
 .tab-pane{
   padding-top: 20px;
