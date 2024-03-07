@@ -3,7 +3,7 @@
 $_['text_information']  = 'Información';
 $_['text_service']      = 'Servicio al Cliente';
 $_['text_extra']        = 'Extras';
-$_['text_contact']      = 'Contáctanos';
+$_['text_contact']      = 'Contácto';
 $_['text_return']       = 'Devoluciones';
 $_['text_sitemap']      = 'Mapa del Sitio';
 $_['text_manufacturer'] = 'Fabricantes';
@@ -19,5 +19,5 @@ $_['text_callus']      = 'Contactanos';
 $_['text_mailus']      = 'Correo';
 $_['text_findus']      = 'Donde estamos';
 $_['text_aboutus']      = '<strong>Laboratorio Calastremé</strong><br>
-La linea más de productos veterinarios
+La linea mas completa de productos veterinarios!
 ';

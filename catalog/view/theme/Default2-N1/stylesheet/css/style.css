@@ -174,7 +174,7 @@ a {
   color: #635c5c;
 }
 a:hover {
-  color: #fff;
+  color: #0069d9;
 }
 a:focus,
 a:hover,
@@ -1827,13 +1827,19 @@ hr {
   color: #ffffff;
   background-color: #1160AB;
   letter-spacing: 2px;
-  font-size: 35px;
+  font-size: 30px;
   font-weight: 700;
   line-height: 1.2;
   text-transform: uppercase;
   /* font-family: "chillout_for_personal_useRg"; */
   font-family: "Teko", sans-serif;
 } 
+@media (max-width: 991px) {
+  .sport-tittle h2 {
+    font-size: 20px;
+  }
+}
+
 @media (max-width: 575px) {
   .section-tittle .front-text h2 {
     font-size: 40px;
@@ -1864,7 +1870,7 @@ hr {
 @media (max-width: 575px) {
   .section-tittle span.back-text {
     /* font-size: 56px; */
-    font-size: 8em;
+    font-size: 6em;
     transform: translateY(-136%);
   }
 }
@@ -1878,7 +1884,7 @@ hr {
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
   .section-tittle span.back-text {
     /* font-size: 127px; */
-    font-size: 11em;
+    font-size: 10em;
   }
 }
 .section-tittle.section-tittle2 .front-text h2 {
@@ -2195,6 +2201,8 @@ hr {
 .main-header .main-menu ul li a {
   color: #fff;
   font-weight: 500;
+  font-weight: bolder;
+  /* text-transform: uppercase; */
   padding: 39px 19px;
   display: block;
   font-size: 14px;
@@ -2778,7 +2786,7 @@ hr {
 }
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
   .support-company-area .support-wrapper .left-content {
-    width: 100%;
+    width: 45%;
     padding-left: 120px;
   }
 }
@@ -2855,7 +2863,7 @@ hr {
 }
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
   .support-company-area .support-wrapper .right-content {
-    width: 100%;
+    width: 40%;
     padding-top: 50px;
   }
 }

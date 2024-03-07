@@ -5,9 +5,9 @@
     <ul class="bg-transparent d-flex p-0">
       <?php foreach ($languages as $language) { ?>
       <li>
-        <button class="btnheader btn-link btn-block language-select language-btn" type="button" name="<?php echo $language['code']; ?>">
+        <button class="btnheader btn-link btn-block language-select language-btn d-flex align-items-center" type="button" name="<?php echo $language['code']; ?>">
           <img src="catalog/language/<?php echo $language['code']; ?>/<?php echo $language['code']; ?>.png" alt="<?php echo $language['name']; ?>" title="<?php echo $language['name']; ?>" /> 
-          <!-- <?php echo $language['name']; ?> -->
+           <span class="pl-3">  <?php echo $language['name']; ?> </span>
         </button>
       </li>
       <?php } ?>

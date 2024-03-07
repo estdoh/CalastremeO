@@ -17,9 +17,11 @@
     <div class="product-thumb transition">
       <div class="image"><a href="<?php echo $product['href']; ?>"><img src="<?php echo $product['thumb']; ?>" alt="<?php echo $product['name']; ?>" title="<?php echo $product['name']; ?>" class="img-responsive" /></a></div>
       <div class="caption">
-        <h2 class="uppercase">
+        <h2 class="uppercase text-center">
           <a href="<?php echo $product['href']; ?>"><?php echo $product['name']; ?></a>
         </h2>
+        <!--  <p><?php echo $product['options']; ?></p> -->
+        <p class="font-italic text-center fs-2"><?php echo $product['model']; ?></p>
         <!-- <p><?php echo $product['description']; ?></p> -->
       </div>      
     </div>

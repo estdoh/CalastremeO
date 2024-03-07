@@ -104,6 +104,33 @@ ul {
   float: left;
   margin-top: 8px;
 }
+
+.single-cta .cta-text i {
+  font-size: 15px;
+}
+
+.single-cta .cta-text a{
+  font-size: 15px;
+}
+
+.single-cta .cta-text a:hover {
+  color: #0069d9;
+  font-weight: bolder;
+  /* color: white;
+  text-decoration: none; */
+  /* padding: 0.5em 0.5em 0.5em; */
+}
+
+.nav>li>a:focus, .nav>li>a:hover {
+  text-decoration: none;
+  color: white;
+  background-color: #8ed2eb;
+}
+
+.single-cta .cta-text p {
+    font-size: 14px;
+    margin-bottom: 0%;
+ }
 .cta-text {
   padding-left: 15px;
   /* display: inline-block; */
@@ -281,7 +308,12 @@ ul {
 
 .language-btn{
   background: #8ed2eb00;
-  color: rgb(255, 255, 255);
+  color: rgb(73, 73, 73);
+  /* width: 150px; */
+    height: 20px;
+}
+.language-btn img{
+  width: 20px;
 }
 
 .input-group-sm>.form-control, .input-group-sm>.input-group-addon, .input-group-sm>.input-group-btn>.btn {
@@ -331,6 +363,7 @@ footer h5{
 .breadcrumb {
 	padding-top: 20px;
 	background-color: transparent;
+  font-size: 20px;
 	/* border: 1px solid #ddd; */
 }
 
@@ -347,6 +380,7 @@ legend {
   padding-top: 7px;
   margin-bottom: 0;
   text-align: left;
+  font-weight: bolder;
   text-transform: uppercase;
   /* font-weight: ; */
 }

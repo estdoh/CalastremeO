@@ -57,6 +57,14 @@ class ControllerExtensionModuleFeatured extends Controller {
 					} else {
 						$rating = false;
 					}
+					// 	echo "<script>console.log('Console: " . data['products'] . "' );</script>" ;
+					// if ($product_info['options']) {
+					 //	$options = $product_info['options'];
+					// } else {
+					 	// $options = $this->model_catalog_product->getProductOptions($product_info['product_id']);
+					// }
+
+					
 
 					$data['products'][] = array(
 						'product_id'  => $product_info['product_id'],
@@ -67,6 +75,8 @@ class ControllerExtensionModuleFeatured extends Controller {
 						'special'     => $special,
 						'tax'         => $tax,
 						'rating'      => $rating,
+						'model'       => $product_info['model'],
+						// 'options'     => $product_info['$option'],
 						'href'        => $this->url->link('product/product', 'product_id=' . $product_info['product_id'])
 					);
 				}

@@ -12,7 +12,7 @@
     <div class="section-tittle mt-5">
       <div class="front-text">
         <h2>Contacto</h2>
-        <p>Contactate con Laboratorio Calatreme</p>
+        <p>Contactate con Nosotros</p>
       </div>
     </div>
   </div>
@@ -96,37 +96,65 @@
         </form>
       </div>
 
-      <div class="col-md-6 pt-5 d-flex flex-column">
+      <!-- <div class="col-md-6 pt-5 d-flex flex-column">
         <div class="single-cta mb-30">
           <i class="fas fa-map-marker-alt"></i>
           <div class="cta-text">
             <h4>
             Ubicación
-              <!--?php echo $text_findus; ?-->
+               ?php echo $text_findus; ?
             </h4>
-            <span>LA PAZ 2150 – Martínez
-              Bs As – Arg</span>
+            <p>LA PAZ 2150 – Martínez
+              Bs As – Arg</p>
           </div>
         </div>
         <div class="single-cta mb-30">
           <i class="fa fa-whatsapp"></i>
           <div class="cta-text">
             <h4>
-              <!--?php echo $text_callus; ?-->
+               ?php echo $text_callus; ?
               Telefonos y whatsapp
             </h4>
-            <span>+549 11 6199-5308</span><br>
-            <span>+549 11 6199-5308</span>
+            <p><a class="text-muted" href="https://api.whatsapp.com/send?phone=+5491161995308&text=Estoy%20interesado%20en%20contactarlos" target="_blank">+549 11 6199-5308</p>
           </div>
         </div>
         <div class="single-cta mb-30">
           <i class="far fa-envelope-open"></i>
           <div class="cta-text">
             <h4>
-              <!--?php echo $text_mailus; ?-->
+         ?php echo $text_mailus; ?
               Correos
             </h4>
-            <span>info@calastreme.com.ar</span>
+            <p><a href="mailto:info@calastreme.com.ar">info@calastreme.com.ar</a></p>
+          </div>
+        </div>
+      </div> -->
+      <div class="col-md-6 pt-5 d-flex flex-column">
+        <div class="single-cta mb-30">
+          <i class="fas fa-map-marker-alt"></i>
+          <div class="cta-text">            
+            <h4>REGION NOA</h4>
+            <h3>DI NENNO LEONARDO</h3>
+            <p>Córdoba - Mendoza - Santiago del Estero - Tucumán - Salta - Catamarca - Jujuy</p>
+            <div class="d-flex align-items-baseline"><i class="fa fa-whatsapp fa-xs pr-4"></i><a class="text-muted" href="https://api.whatsapp.com/send?phone=+5491139076635&text=Estoy%20interesado%20en%20contactarlos" target="_blank">+549 11 3907-6635</a></div>
+          </div>
+        </div>
+        <div class="single-cta mb-30">
+          <i class="fas fa-map-marker-alt"></i>
+          <div class="cta-text">            
+            <h4>REGION LA PAMPA y PATAGONIA</h4>
+            <h3>MARIANO CARTELLI</h3>
+            <p>Buenos Aires - La Pampa - Patagonia</p>
+            <div class="d-flex align-items-baseline"><i class="fa fa-whatsapp fa-2xl pr-2"></i><a class="text-muted" href="https://api.whatsapp.com/send?phone=+5491164034098&text=Estoy%20interesado%20en%20contactarlos" target="_blank">+549 11 6403-4098</a></div>
+          </div>
+        </div>
+        <div class="single-cta mb-30">
+          <i class="fas fa-map-marker-alt"></i>
+          <div class="cta-text">            
+            <h4>REGION NEA</h4>
+            <h3>MIGUEL GALAÑENA</h3>
+            <p>Santa Fé - Entre Ríos - Corrientes - Misiones - Chaco - Formosa</p>
+            <div class="d-flex align-items-baseline"><i class="fa fa-whatsapp fa-xs pr-2"></i><a class="text-muted" href="https://api.whatsapp.com/send?phone=+5491161995552&text=Estoy%20interesado%20en%20contactarlos" target="_blank"> +549 11 6199-5552</a></div>
           </div>
         </div>
       </div>

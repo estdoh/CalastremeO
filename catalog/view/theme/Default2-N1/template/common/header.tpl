@@ -64,8 +64,22 @@
 
 
 <header>  
+  <div class="topbar .bg-light.bg-gradient">
+    <span class="topbar-child1">
+      <div class="d-flex justify-content-around">
+        <?php echo $currency; ?>
+        <?php echo $language; ?>
+        <ul class="nav list-unstyled navfootersm">
+          <li class="ms-3"><a class="text-muted" href="https://www.facebook.com/laboratoriocalastreme" target="_blank"><i class="fa fa-facebook"></i></a></li>
+          <li class="ms-3"><a class="text-muted" href="https://www.instagram.com/laboratoriocalastreme" target="_blank"><i class="fa fa-instagram"></i></a></li>
+          <li class="ms-3"><a class="text-muted" href="https://api.whatsapp.com/send?phone=+5491161995308&text=Estoy%20interesado%20en%20contactarlos" target="_blank"><i class="fa fa-whatsapp"></i></a></li>
+        </ul>
+      </div>      
+    </span>    
+  </div> 
   <div class="header-area header-transparent">
-    <div class="main-header ">            
+    <div class="main-header ">   
+              
       <div class="header-bottom  header-sticky">
         <div class="container-fluid">
           <div class="row align-items-center justify-content-between">
@@ -80,15 +94,15 @@
             </div>
             <div class="col-xl-8 col-lg-8 col-md-8">
                 <!-- Main-menu -->
-                <div class="main-menu f-right d-none d-lg-block">
+                <div class="main-menu f-right d-none d-lg-block uppercase">
                     <nav> 
                         <ul id="navigation">                                                                                                                   
-                            <li><a href="#" >Home</a></li>
-                            <li><a href="about_us" >Nosotros</a></li>
-                            <li><a href="#products">Productos</a></li>
+                            <li><a href="#" >HOME</a></li>
+                            <li><a href="about_us" >NOSOTROS</a></li>
+                            <li><a href="#products">PRODUCTOS</a></li>
                             <!-- <li><a href="#">Servicios</a></li>                                             -->
-                            <li><a href="index.php?route=information/contact">Contacto</a></li>
-                            <li><a href="comex">Comercio Exterior</a></li>
+                            <li><a href="index.php?route=information/contact">CONTACTO</a></li>
+                            <li><a href="comex">COMERCIO EXTERIOR</a></li>
                             <li>
                               <div class="dropdown">
                                 <button class="btnheader btn-secondary btn-sm dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -101,10 +115,7 @@
                             </li>
                             <li>
                               
-                              <div class="header-right-btn">
-                                <?php echo $currency; ?>
-                                <?php echo $language; ?>
-                              </div>
+                              
                             </li>
                         </ul>
                     </nav>

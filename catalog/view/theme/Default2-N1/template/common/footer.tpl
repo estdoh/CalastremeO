@@ -8,8 +8,9 @@
                 <i class="fas fa-map-marker-alt"></i>
                 <div class="cta-text">
                     <h4><?php echo $text_findus; ?></h4>
-                    <span>LA PAZ 2150 – Martínez
-                    Bs As – Arg</span>
+                    <span><a href="index.php?route=information/contact">
+                    LA PAZ 2150 – Martínez Bs As – Arg
+                    </a></span>
                 </div>
             </div>
         </div>
@@ -17,8 +18,8 @@
             <div class="single-cta">
                 <i class="fa fa-whatsapp"></i>
                 <div class="cta-text">
-                    <h4><?php echo $text_callus; ?></h4>
-                    <span>+549 11 6199-5308</span>
+                <a href="https://api.whatsapp.com/send?phone=+5491161995308&text=Estoy%20interesado%20en%20contactarlos"><h4><?php echo $text_callus; ?></h4></a>
+                    <span><a href="https://api.whatsapp.com/send?phone=+5491161995308&text=Estoy%20interesado%20en%20contactarlos">+549 11 6199-5308</a></span>
                 </div>
             </div>
         </div>
@@ -27,7 +28,7 @@
                 <i class="far fa-envelope-open"></i>
                 <div class="cta-text">
                     <h4><?php echo $text_mailus; ?></h4>
-                    <span>info@calastreme.com.ar</span>
+                    <span><a href="mailto:info@calastreme.com.ar">info@calastreme.com.ar</a></span>
                 </div>
             </div>
         </div>
@@ -46,6 +47,7 @@
       <div class="col-6 col-md-3 col-sm-6">
         <h5><?php echo $text_information; ?></h5>
         <ul class="list-unstyled">
+          <li><a href="index.php?route=information/contact">Contacto</a></li>
           <?php foreach ($informations as $information) { ?>
            <li><a href="<?php echo $information['href']; ?>"><?php echo $information['title']; ?></a></li> 
           <!-- <li><a href="#"><?php echo $information['title']; ?></a></li> -->
@@ -63,9 +65,10 @@
           <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
           <li><a href="<?php echo $newsletter; ?>"><?php echo $text_newsletter; ?></a></li> 
           <li><a href="#"><?php echo $text_newsletter; ?></a></li> -->
+          <li><a href="index.php?route=product/category&path=30">Equinos</a></li>
           <li><a href="index.php?route=product/category&path=31">Grandes Animales</a></li>
           <li><a href="index.php?route=product/category&path=33">Pequeños Animales</a></li>
-          <li><a href="index.php?route=product/category&path=30">Equinos</a></li>
+          
           
         </ul>
       </div>
@@ -83,6 +86,7 @@
           <li class="ms-3"><a class="text-muted" href="https://www.facebook.com/laboratoriocalastreme" target="_blank"><i class="fa fa-facebook"></i></a></li>
           
           <li class="ms-3"><a class="text-muted" href="https://www.instagram.com/laboratoriocalastreme" target="_blank"><i class="fa fa-instagram"></i></a></li>
+          <li class="ms-3"><a class="text-muted" href="https://api.whatsapp.com/send?phone=+5491161995308&text=Estoy%20interesado%20en%20contactarlos" target="_blank"><i class="fa fa-whatsapp"></i></a></li>
         </ul>
       </div>
     </div>
