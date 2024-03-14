@@ -112,7 +112,8 @@ h4,
 h5,
 h6 {
   font-family: "Barlow", sans-serif;
-  color: #0b1c39;
+  /* color: #0b1c39; */
+  color: #1160ab;
   margin-top: 0px;
   font-style: normal;
   font-weight: 500;
@@ -123,7 +124,7 @@ h6 {
 p {
   font-family: "Barlow", sans-serif;
   color: "Barlow", sans-serif;
-  font-size: 16px;
+  font-size: 15px;
   line-height: 30px;
   margin-bottom: 15px;
   font-weight: normal;
@@ -5163,7 +5164,7 @@ hr {
   z-index: 1042;
   overflow: hidden;
   position: fixed;
-  background: #4a3600;
+  background: #00284a;
   opacity: 0.6;
 }
 @media (max-width: 767px) {

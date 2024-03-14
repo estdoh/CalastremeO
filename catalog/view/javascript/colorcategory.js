@@ -33,3 +33,17 @@ function alterStyle(breadcrumb) {
 //     color: #1696e7;
 //     outline: medium none;
 //   }
+
+let categoryItem = document.querySelector('#Hepatoprotectores');
+
+function alterColorCategory() {
+    // breadcrum.style.backgroundColor = 'green';
+    categoryItem.classList.add('Hepatoprotectores');    
+    console.log(categoryItem.classList);
+
+    // let hijo = breadcrumb.firstChild;
+    // hijo.classList.add('asd');
+    // console.log(hijo);
+  }
+  
+  alterColorCategory();

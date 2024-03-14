@@ -16,7 +16,7 @@
     <div id="content" class="<?php echo $class; ?>"><?php echo $content_top; ?>
       <h2><?php echo $heading_title; ?></h2>
       <?php if ($thumb || $description) { ?>
-      <div class="row">
+      <div class="row pt-4 pb-4">
         <?php if ($thumb) { ?>
         <div class="col-sm-2"><img src="<?php echo $thumb; ?>" alt="<?php echo $heading_title; ?>" title="<?php echo $heading_title; ?>" class="img-thumbnail" /></div>
         <?php } ?>
@@ -36,26 +36,29 @@
             <li><a href="<?php echo $category['href']; ?>"><?php echo $category['name']; ?></a></li>
             <?php } ?>
           </ul>
+          
         </div>
       </div>
       <?php } else { ?>
       <div class="row pt-4 pb-4">
-        <?php foreach (array_chunk($categories, ceil(count($categories) / 4)) as $categories) { ?>
-        <div class="col-sm-3">
+        <?php foreach (array_chunk($categories, ceil(count($categories) / 3)) as $categories) { ?>
+        <div class="col-sm-4">
           <ul>
             <?php foreach ($categories as $category) { ?>
-            <li><a href="<?php echo $category['href']; ?>"><?php echo $category['name']; ?></a></li>
+            <li><a class="btn btn-sm w-100 my-1" id="<?php $words = explode(" ", $category['name']); echo $words[0] ?>" href="<?php echo $category['href']; ?>"><?php echo $category['name']; ?></a></li>
             <?php } ?>
           </ul>
         </div>
         <?php } ?>
+        
       </div>
       <?php } ?>
       <?php } ?>
+      <hr>
       <?php if ($products) { ?>
       <div class="row d-flex justify-content-around p-4">
-        <div class="col-md-2 col-sm-6 hidden-xs d-flex align-items-center">
-          <div class="btn-group btn-group-sm">
+        <div class="col-md-2 col-sm-6 hidden-xs d-flex align-items-center ">
+          <div class="btn-group btn-group-sm d-none">
             <button type="button" id="list-view" class="btn btn-default" data-toggle="tooltip" title="<?php echo $button_list; ?>"><i class="fa fa-th-list"></i></button>
             <button type="button" id="grid-view" class="btn btn-default" data-toggle="tooltip" title="<?php echo $button_grid; ?>"><i class="fa fa-th"></i></button>
           </div>
@@ -65,7 +68,7 @@
             <a href="<?php echo $compare; ?>" id="compare-total" class="btn btn-link"><?php echo $text_compare; ?></a>
           </div>
         </div> -->
-        <div class="col-md-4 col-xs-6">
+        <div class="col-md-4 col-xs-6 d-none">
           <div class="form-group input-group input-group-sm d-flex align-items-center">
             <label class="input-group-addon" for="input-sort"><?php echo $text_sort; ?></label>
             <select id="input-sort" class="form-control" onchange="location = this.value;">
@@ -79,7 +82,7 @@
             </select>
           </div>
         </div>
-        <div class="col-md-3 col-xs-6">
+        <div class="col-md-2 col-xs-6 d-none">
           <div class="form-group input-group input-group-sm d-flex align-items-center">
             <label class="input-group-addon" for="input-limit"><?php echo $text_limit; ?></label>
             <select id="input-limit" class="form-control" onchange="location = this.value;">

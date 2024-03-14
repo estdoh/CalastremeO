@@ -106,11 +106,11 @@ ul {
 }
 
 .single-cta .cta-text i {
-  font-size: 15px;
+  font-size: 17px;
 }
 
 .single-cta .cta-text a{
-  font-size: 15px;
+  font-size: 17px;
 }
 
 .single-cta .cta-text a:hover {
@@ -128,7 +128,7 @@ ul {
 }
 
 .single-cta .cta-text p {
-    font-size: 14px;
+    font-size: 16px;
     margin-bottom: 0%;
  }
 .cta-text {
@@ -396,4 +396,164 @@ legend {
 
 .nav-tabs>li>a {
   font-size: small; 
+}
+
+#tab-description > p.font-italic{
+  font-size: 13px;
+  line-height: 1.7;
+}
+
+#content > hr:nth-child(6){
+  border-bottom: 2px solid #1160AB;
+  padding-bottom: 10px;
+}
+
+#content > div:nth-child(5) > div > ul > li > a{
+  font-size: 13px;
+  background: transparent;
+  border-left-width: 10px;
+  padding: 15px;
+  color: #000;
+  content: '';
+}
+
+#content > div:nth-child(2) > div > button{
+  color: #000;
+    
+}
+
+.btn::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 101%;
+  height: 101%;
+  background: #11b1e2;
+}
+
+#Antibioticos {
+  border-left-color: rgb(0, 183, 255);
+}
+#Antiinflamatorios {
+  border-left-color: green;
+}
+#Antiparasitarios {
+  border-left-color: purple;
+}
+#Anticatarral {
+  border-left-color: #b12978;
+}
+
+#Antimicotico{
+  border-left-color: yellow;
+}
+#Carminativo {
+  border-left-color: black;
+}
+#Cicatrizantes {
+  border-left-color: black;
+}
+
+#Diureticos {
+  border-left-color: #9ece1c;
+}
+#Hepatoprotectores{
+  border-left-color: violet;
+}
+#Neuroliticos {
+  border-left-color: #c482d4;
+}
+#Carminativo {
+  border-left-color: #9ece1c;
+}
+#Reproduccion{
+  border-left-color: #fdff85;
+}
+#Protectores{
+  border-left-color: #1ccec5;
+}
+#Resolutivos {
+  border-left-color: #1696e7;
+}
+#Suplementos {
+  border-left-color: red;
+}
+#Tonicos {
+  border-left-color: bisque;
+}
+
+#Tocoliticos {
+  border-left-color: #9ece1c;
+}
+
+#Vitaminicos {
+  border-left-color: red;
+}
+
+#Anestesicos::before {
+  background: rgb(92, 54, 54);
+  color: white;
+}
+#Antibioticos:before {
+  background: rgb(0, 183, 255);
+}
+#Antiinflamatorios:before {
+  background: green;
+}
+#Antiparasitarios:before {
+  background: purple;
+}
+#Anticatarral:before {
+  background: #b12978;
+}
+
+#Antimicotico:before {
+  background: yellow;
+}
+#Carminativo:before {
+  background: black;
+  color: white;
+}
+#Cicatrizantes:before {
+  background: black;
+  color: white;
+}
+
+#Diureticos:before {
+  background: #9ece1c;
+}
+#Hepatoprotectores:before {
+  background: violet;
+}
+#Neuroliticos:before {
+  background: #c482d4;
+}
+#Carminativo:before {
+  background: #9ece1c;
+}
+#Reproduccion:before {
+  background: #fdff85;
+}
+#Protectores:before {
+  background: #1ccec5;
+}
+#Resolutivos:before {
+  background: #1696e7;
+}
+#Suplementos:before {
+  background: red;
+  color: white;
+}
+#Tonicos:before {
+  background: bisque;
+}
+
+#Tocoliticos:before {
+  background: #9ece1c;
+}
+
+#Vitaminicos:before {
+  background: red;
+  color: white;
 }

@@ -35,7 +35,7 @@
       </div>
     </div>
     <hr>
-    <div class="row pt-5">
+    <div class="row pt-5 pb-5">
       <div class="col-md-6 col-sm-12">
         <a href="index.html" class="big-logo">
           <img src="image\catalog\calastreme\logo\logo_footer_Color.png" alt="">

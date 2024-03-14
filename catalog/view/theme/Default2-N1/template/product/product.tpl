@@ -7,18 +7,18 @@
   </ul>
   <div class="row"><?php echo $column_left; ?>
     <?php if ($column_left && $column_right) { ?>
-    <?php $class = 'col-sm-6'; ?>
+    <?php $class = 'col-sm-8'; ?>
     <?php } elseif ($column_left || $column_right) { ?>
-    <?php $class = 'col-sm-9'; ?>
+    <?php $class = 'col-sm-8'; ?>
     <?php } else { ?>
     <?php $class = 'col-sm-12'; ?>
     <?php } ?>
     <div id="content" class="<?php echo $class; ?>"><?php echo $content_top; ?>
       <div class="row">
         <?php if ($column_left || $column_right) { ?>
-        <?php $class = 'col-sm-12 col-lg-6'; ?>
+        <?php $class = 'col-sm-12 col-lg-8'; ?>
         <?php } else { ?>
-        <?php $class = 'col-sm-12 col-lg-6'; ?>
+        <?php $class = 'col-sm-12 col-lg-4'; ?>
         <?php } ?>
         <div class="<?php echo $class; ?>">
           <?php if ($thumb || $images) { ?>
@@ -119,9 +119,9 @@
 
         </div>
         <?php if ($column_left || $column_right) { ?>
-        <?php $class = 'col-sm-12 col-lg-6'; ?>
+        <?php $class = 'col-sm-12 col-lg-8'; ?>
         <?php } else { ?>
-        <?php $class = 'col-sm-12 col-lg-6'; ?>
+        <?php $class = 'col-sm-12 col-lg-8'; ?>
         <?php } ?>
         <div class="<?php echo $class; ?>">
           <!-- <div class="btn-group">

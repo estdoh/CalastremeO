@@ -130,19 +130,11 @@
         </div>
       </div> -->
       <div class="col-md-6 pt-5 d-flex flex-column">
+        
         <div class="single-cta mb-30">
           <i class="fas fa-map-marker-alt"></i>
           <div class="cta-text">            
-            <h4>REGION NOA</h4>
-            <h3>DI NENNO LEONARDO</h3>
-            <p>Córdoba - Mendoza - Santiago del Estero - Tucumán - Salta - Catamarca - Jujuy</p>
-            <div class="d-flex align-items-baseline"><i class="fa fa-whatsapp fa-xs pr-4"></i><a class="text-muted" href="https://api.whatsapp.com/send?phone=+5491139076635&text=Estoy%20interesado%20en%20contactarlos" target="_blank">+549 11 3907-6635</a></div>
-          </div>
-        </div>
-        <div class="single-cta mb-30">
-          <i class="fas fa-map-marker-alt"></i>
-          <div class="cta-text">            
-            <h4>REGION LA PAMPA y PATAGONIA</h4>
+            <h4>ZONA BUENOS AIRES, LA PAMPA Y PATAGONIA</h4>
             <h3>MARIANO CARTELLI</h3>
             <p>Buenos Aires - La Pampa - Patagonia</p>
             <div class="d-flex align-items-baseline"><i class="fa fa-whatsapp fa-2xl pr-2"></i><a class="text-muted" href="https://api.whatsapp.com/send?phone=+5491164034098&text=Estoy%20interesado%20en%20contactarlos" target="_blank">+549 11 6403-4098</a></div>
@@ -151,10 +143,19 @@
         <div class="single-cta mb-30">
           <i class="fas fa-map-marker-alt"></i>
           <div class="cta-text">            
-            <h4>REGION NEA</h4>
+            <h4>ZONA NEA</h4>
             <h3>MIGUEL GALAÑENA</h3>
             <p>Santa Fé - Entre Ríos - Corrientes - Misiones - Chaco - Formosa</p>
             <div class="d-flex align-items-baseline"><i class="fa fa-whatsapp fa-xs pr-2"></i><a class="text-muted" href="https://api.whatsapp.com/send?phone=+5491161995552&text=Estoy%20interesado%20en%20contactarlos" target="_blank"> +549 11 6199-5552</a></div>
+          </div>
+        </div>
+        <div class="single-cta mb-30">
+          <i class="fas fa-map-marker-alt"></i>
+          <div class="cta-text">            
+            <h4>ZONA NOA</h4>
+            <h3>DI NENNO LEONARDO</h3>
+            <p>Córdoba - Mendoza - Santiago del Estero - Tucumán - Salta - Catamarca - Jujuy</p>
+            <div class="d-flex align-items-baseline"><i class="fa fa-whatsapp fa-xs pr-4"></i><a class="text-muted" href="https://api.whatsapp.com/send?phone=+5491139076635&text=Estoy%20interesado%20en%20contactarlos" target="_blank">+549 11 3907-6635</a></div>
           </div>
         </div>
       </div>

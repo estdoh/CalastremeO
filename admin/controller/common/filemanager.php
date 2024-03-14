@@ -45,7 +45,7 @@ class ControllerCommonFileManager extends Controller {
 			}
 
 			// Get files
-			$files = glob($directory . '/' . $filter_name . '*.{jpg,jpeg,png,gif,JPG,JPEG,PNG,GIF}', GLOB_BRACE);
+			$files = glob($directory . '/' . $filter_name . '*.{jpg,jpeg,png,webp,gif,JPG,JPEG,PNG,GIF,WEBP}', GLOB_BRACE);
 
 			if (!$files) {
 				$files = array();
@@ -256,7 +256,8 @@ class ControllerCommonFileManager extends Controller {
 						'jpg',
 						'jpeg',
 						'gif',
-						'png'
+						'png',
+						'webp'
 					);
 	
 					if (!in_array(utf8_strtolower(utf8_substr(strrchr($filename, '.'), 1)), $allowed)) {
@@ -269,7 +270,8 @@ class ControllerCommonFileManager extends Controller {
 						'image/pjpeg',
 						'image/png',
 						'image/x-png',
-						'image/gif'
+						'image/gif',
+						'image/webp'
 					);
 	
 					if (!in_array($file['type'], $allowed)) {
@@ -286,6 +288,10 @@ class ControllerCommonFileManager extends Controller {
 
 				if (!$json) {
 					move_uploaded_file($file['tmp_name'], $directory . '/' . $filename);
+					// $dir = 'image/catalog/products/' .$directory .'/'.$filename;
+                    // $im = new Imagick($dir);
+                    // $im->writeImage(substr_replace($dir , 'webp', strrpos($dir , '.') +1));
+                    // unlink($dir);
 				}
 			}
 		}
