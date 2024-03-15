@@ -136,6 +136,8 @@
             <script src="catalog/view/javascript/js/plugins.js"></script>
             <script src="catalog/view/javascript/js/main.js"></script>
 
+            <script type="text/javascript" src="slick/slick.min.js"></script>
+
 <script src="catalog/view/javascript/colorcategory.js"></script>
 
 </body></html>

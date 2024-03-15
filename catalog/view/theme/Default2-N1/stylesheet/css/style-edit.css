@@ -557,3 +557,31 @@ legend {
   background: red;
   color: white;
 }
+
+#content > div:nth-child(3) > div::-webkit-scrollbar{
+  display: none;
+}
+
+
+.slick-prev:hover, .slick-prev:focus, .slick-next:hover, .slick-next:focus {
+  color: #0069d9;
+  outline: none;
+  background: transparent;
+}
+
+.slick-prev, .slick-next {
+  color: #44abff;
+}
+
+.slick-prev:before, .slick-next:before {
+  color: #0069d9;
+}
+
+.slick-dots li button:before {
+  font-size: 6px;
+  width: 20px;
+  height: 20px;
+  content: '•';
+  
+  color: rgb(23, 177, 238);
+}
