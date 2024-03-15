@@ -417,6 +417,8 @@ legend {
   content: '';
 }
 
+#content > div:nth-child(5) > div > ul > li > a
+
 #content > div:nth-child(2) > div > button{
   color: #000;
     
@@ -430,6 +432,18 @@ legend {
   width: 101%;
   height: 101%;
   background: #11b1e2;
+}
+#Equinos {
+  border-left-color: rgb(221, 48, 48);;
+}
+#Grandes {
+  border-left-color: rgb(77, 221, 48);
+}
+#Pequeños {
+  border-left-color: rgb(48, 221, 198);
+}
+#Cosmeticos {
+  border-left-color: rgb(221, 48, 91);
 }
 
 #Antibioticos {
@@ -491,6 +505,19 @@ legend {
   border-left-color: red;
 }
 
+
+#Equinos::before {
+  background: rgb(221, 48, 48);
+}
+#Grandes::before {
+  background: rgb(77, 221, 48);
+}
+#Pequeños::before {
+  background: rgb(48, 221, 198);
+}
+#Cosmeticos::before {
+  background: rgb(221, 48, 91);
+}
 #Anestesicos::before {
   background: rgb(92, 54, 54);
   color: white;

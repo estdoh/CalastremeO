@@ -30,10 +30,10 @@
       <h3><?php echo $text_refine; ?></h3>
       <?php if (count($categories) <= 5) { ?>
       <div class="row pt-4 pb-4">
-        <div class="col-sm-3">
-          <ul>
+        <div class="col-sm-4">
+          <ul class="d-flex">
             <?php foreach ($categories as $category) { ?>
-            <li><a href="<?php echo $category['href']; ?>"><?php echo $category['name']; ?></a></li>
+            <li><a class="btn btn-sm w-100 my-1" id="<?php $words = explode(" ", $category['name']); echo $words[0] ?>" href="<?php echo $category['href']; ?>"><?php echo $category['name']; ?></a></li>
             <?php } ?>
           </ul>
           
@@ -52,9 +52,10 @@
         <?php } ?>
         
       </div>
-      <?php } ?>
-      <?php } ?>
       <hr>
+      <?php } ?>
+      <?php } ?>
+      
       <?php if ($products) { ?>
       <div class="row d-flex justify-content-around p-4">
         <div class="col-md-2 col-sm-6 hidden-xs d-flex align-items-center ">
