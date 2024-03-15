@@ -104,7 +104,7 @@
                         <ul id="navigation">                                                                                                                   
                             <li><a href="#" >HOME</a></li>
                             <li><a href="about_us" >NOSOTROS</a></li>
-                            <li><a href="#products">PRODUCTOS</a></li>
+                            <li><a href="index.php?route=product/category&path=84">PRODUCTOS</a></li>
                             <!-- <li><a href="#">Servicios</a></li>                                             -->
                             <li><a href="index.php?route=information/contact">CONTACTO</a></li>
                             <li><a href="comex">COMERCIO EXTERIOR</a></li>
