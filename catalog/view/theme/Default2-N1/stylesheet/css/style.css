@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Barlow:200,300,400,500,600,700,800,900|Teko:300,400,500,600,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Helvetica Neue:200,300,400,500,600,700,800,900|Helvetica Neue:300,400,500,600,700&display=swap");
 .white-bg {
   background: #ffffff;
 }
@@ -37,7 +37,7 @@
   color: #8ed2eb !important;
   display: inline-block;
   padding: 18px 44px;
-  font-family: "Barlow", sans-serif;
+  font-family: "Helvetica Neue", sans-serif;
   font-size: 14px;
   font-weight: 400;
   border: 0;
@@ -101,7 +101,7 @@
   opacity: 0.9;
 }
 body {
-  font-family: "Barlow", sans-serif;
+  font-family: "Helvetica Neue", sans-serif;
   font-weight: normal;
   font-style: normal;
 }
@@ -111,7 +111,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Barlow", sans-serif;
+  font-family: "Helvetica Neue", sans-serif;
   /* color: #0b1c39; */
   color: #1160ab;
   margin-top: 0px;
@@ -122,8 +122,8 @@ h6 {
 
 
 p {
-  font-family: "Barlow", sans-serif;
-  color: "Barlow", sans-serif;
+  font-family: "Helvetica Neue", sans-serif;
+  color: "Helvetica Neue", sans-serif;
   font-size: 15px;
   line-height: 30px;
   margin-bottom: 15px;
@@ -443,7 +443,7 @@ hr {
 }
 .red-btn2 {
   text-transform: uppercase;
-  font-family: "Teko", sans-serif;
+  font-family: "Helvetica Neue", sans-serif;
   padding: 30px 51px;
   font-size: 16px;
 }
@@ -1821,7 +1821,7 @@ hr {
   line-height: 1.2;
   text-transform: uppercase;
   /* font-family: "chillout_for_personal_useRg"; */
-  font-family: "Teko", sans-serif;
+  font-family: "Helvetica Neue", sans-serif;
 }
 
 .sport-tittle h2 {
@@ -1833,7 +1833,7 @@ hr {
   line-height: 1.2;
   text-transform: uppercase;
   /* font-family: "chillout_for_personal_useRg"; */
-  font-family: "Teko", sans-serif;
+  font-family: "Helvetica Neue", sans-serif;
 } 
 @media (max-width: 991px) {
   .sport-tittle h2 {
@@ -2165,7 +2165,7 @@ hr {
   color: #fff;
   display: inline-block;
   margin-right: 45px;
-  font-family: "Barlow", sans-serif;
+  font-family: "Helvetica Neue", sans-serif;
   font-size: 14px;
 }
 .header-area .header-top .header-info-left ul li:last-child {
@@ -2414,7 +2414,7 @@ hr {
   font-size: 140px;
   font-weight: 900;
   color: #ffffff;
-  font-family: "Barlow", sans-serif;
+  font-family: "Helvetica Neue", sans-serif;
   line-height: 1;
   text-transform: uppercase;
   color: #8ed2eb;
@@ -2547,7 +2547,7 @@ hr {
   color: #fff;
   font-size: 18px;
   text-transform: uppercase;
-  font-family: "Teko", sans-serif;
+  font-family: "Helvetica Neue", sans-serif;
   font-weight: 400;
   letter-spacing: 0.03em;
   display: block;
@@ -2921,7 +2921,7 @@ hr {
   color: #fff;
   text-transform: uppercase;
   font-weight: 700;
-  font-family: "Barlow", sans-serif;
+  font-family: "Helvetica Neue", sans-serif;
   line-height: 1.2;
 }
 @media (max-width: 575px) {
@@ -3036,7 +3036,7 @@ hr {
   color: #8ed2eb;
   font-size: 14px;
   font-weight: 500;
-  font-family: "Teko", sans-serif;
+  font-family: "Helvetica Neue", sans-serif;
   display: block;
   position: relative;
   margin-left: 30px;
@@ -3057,7 +3057,7 @@ hr {
   color: #0e132a;
   font-weight: 700;
   font-size: 25px;
-  font-family: "Teko", sans-serif;
+  font-family: "Helvetica Neue", sans-serif;
 }
 .single-team:hover .team-img img {
   transform: scale(1.1);
@@ -3706,7 +3706,7 @@ hr {
   font-size: 35px;
   margin-bottom: 29px;
   font-weight: 500;
-  font-family: "Teko", sans-serif;
+  font-family: "Helvetica Neue", sans-serif;
 }
 .footer-area .footer-tittle ul li {
   color: #9fa6bd;
@@ -3841,13 +3841,13 @@ hr {
   font-size: 36px;
   font-weight: 700;
   line-height: 1.2;
-  font-family: "Teko", sans-serif;
+  font-family: "Helvetica Neue", sans-serif;
 }
 .latest-blog-area .area-heading {
   margin-bottom: 70px;
 }
 .blog_area a {
-  color: "Barlow", sans-serif !important;
+  color: "Helvetica Neue", sans-serif !important;
   text-decoration: none;
   transition: 0.4s;
 }
@@ -4990,7 +4990,7 @@ hr {
   color: #fff;
   font-weight: 900;
   margin-bottom: 0;
-  font-family: "Barlow", sans-serif;
+  font-family: "Helvetica Neue", sans-serif;
   text-transform: capitalize;
 }
 @media (max-width: 767px) {
@@ -5041,7 +5041,7 @@ hr {
   cursor: pointer;
   display: block;
   float: left;
-  font-family: "Barlow", sans-serif;
+  font-family: "Helvetica Neue", sans-serif;
   font-weight: normal;
   width: 100% !important;
   line-height: 50px;

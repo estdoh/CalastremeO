@@ -1,5 +1,6 @@
 html{
     zoom: 0.9;
+    font-family: "Helvetica Neue";
 }
 
 .header-bottom{    
@@ -408,7 +409,7 @@ legend {
   padding-bottom: 10px;
 }
 
-#content > div:nth-child(5) > div > ul > li > a{
+#content > div > div > ul > li > a{
   font-size: 13px;
   background: transparent;
   border-left-width: 10px;
@@ -417,11 +418,9 @@ legend {
   content: '';
 }
 
-#content > div:nth-child(5) > div > ul > li > a
-
 #content > div:nth-child(2) > div > button{
   color: #000;
-    
+
 }
 
 .btn::before {
