@@ -18,6 +18,6 @@ $_['text_powered']      = '%s &copy; 1907 - %s |';
 $_['text_callus']      = 'Contactanos';
 $_['text_mailus']      = 'Correo';
 $_['text_findus']      = 'Donde estamos';
-$_['text_aboutus']      = '<strong>Laboratorio Calastremé</strong><br>
+$_['text_aboutus']      = '
 La linea mas completa de productos veterinarios!
 ';
