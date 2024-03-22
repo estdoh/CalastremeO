@@ -56,20 +56,12 @@
           </div> -->
           <h1><?php echo $heading_title; ?></h1>
           <ul class="list-unstyled">
-            <!-- <?php if ($manufacturer) { ?>
-            <li><?php echo $text_manufacturer; ?> <a href="<?php echo $manufacturers; ?>"><?php echo $manufacturer; ?></a></li>
-            <?php } ?> 
-            <li><?php echo $text_model; ?> <?php echo $model; ?></li>
-            -->
             <p class="font-italic"><?php echo $model; ?></p>
             <?php if ($reward) { ?>
             <li><?php echo $text_reward; ?> <?php echo $reward; ?></li>
             <?php } ?>
-           <!-- <li><?php echo $text_stock; ?> <?php echo $stock; ?></li> -->
           </ul>
-
-          
-
+        
           <?php if ($price) { ?>
           <ul class="list-unstyled">
             <?php if (!$special) { ?>
