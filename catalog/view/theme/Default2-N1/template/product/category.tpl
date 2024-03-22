@@ -155,7 +155,7 @@
       </div>
       <div class="row">
         <div class="col-sm-6 text-left"><?php echo $pagination; ?></div>
-        <div class="col-sm-6 text-right"><?php echo $results; ?></div>
+        <div class="col-sm-6 text-right"> <p class="text-secondary font-weight-light font-italic"><?php echo $results; ?></p></div>
       </div>
       <?php } ?>
       <?php if (!$categories && !$products) { ?>

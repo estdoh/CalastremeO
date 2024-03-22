@@ -1,5 +1,5 @@
 html{
-    zoom: 1;
+    zoom: 0.9;
     font-family: "Helvetica Neue";
 }
 
@@ -417,12 +417,18 @@ legend {
   color: #000;
   content: '';
 }
-#content > div > div > ul > li > .thumbnail{
+#content > div > div > .pagination > li > a {
   border-left-width: 0px;
   border-top-width: 0px;
 }
 
-
+.pagination>li>a, .pagination>li>span {
+  padding: 16px 16px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-top-width: 1px;
+  border-left-width: 1px;
+}
 #content > div:nth-child(2) > div > button{
   color: #000;
 
@@ -637,6 +643,7 @@ legend {
   width: 250px;
 }
 
-/* .img-fluid {
+h2 .img-fluid {
   max-width: 30px;
-} */
+}
+
