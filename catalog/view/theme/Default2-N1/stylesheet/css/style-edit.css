@@ -422,6 +422,10 @@ legend {
   border-top-width: 0px;
 }
 
+#content > div > div.col-sm-12.col-lg-5 > ul > li > a{
+  border-left-width: 0px;
+  border-top-width: 0px;
+}
 .pagination>li>a, .pagination>li>span {
   padding: 16px 16px;
   background-color: #fff;
