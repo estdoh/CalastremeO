@@ -1,5 +1,5 @@
-<?php echo $header; ?>
-<div id="content">
+ <?php echo $header; ?>
+ <div id="content">
   <div class="container-fluid"><br />
     <br />
     <div class="row">
@@ -48,4 +48,38 @@
     </div>
   </div>
 </div>
-<?php echo $footer; ?>
+<?php echo $footer; ?> 
+
+<!-- // copilot refrex de style of login .tpl -->
+<!-- 
+<div id="content">
+  <div class="container-fluid"><br />
+    <br/>
+    <div class="row">
+      <section class="login">
+        <h2>Login</h2>
+        <p>Welcome back! Please enter your username and password.</p>
+        <form action="<?php echo $action; ?>" method="post" enctype="multipart/form-data">
+          <div class="form-group">
+            <label for="input-username">Username</label>
+            <div class="input-group">
+              <span class="input-group-addon"><i class="fa fa-user"></i></span>
+              <input type="text" name="username" value="<?php echo $username; ?>" placeholder="Enter your username" id="input-username" class="form-control" />
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="input-password">Password</label>
+            <div class="input-group">
+              <span class="input-group-addon"><i class="fa fa-lock"></i></span>
+              <input type="password" name="password" value="<?php echo $password; ?>" placeholder="Enter your password" id="input-password" class="form-control" />
+            </div>
+          </div>
+          <div class="text-right">
+            <button type="submit" class="btn btn-primary"><i class="fa fa-key"></i> Login</button>
+          </div>
+        </form>
+      </section>
+    </div>
+  </div>
+</div>
+ <?php echo $footer; ?> -->

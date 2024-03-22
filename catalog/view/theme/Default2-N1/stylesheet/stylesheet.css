@@ -367,10 +367,10 @@ footer h5 {
 	content: '';
 	display: block;
 	position: absolute;
-	top: -3px;
-	right: -5px;
+	top: 0px;
+	right: 0px;
 	width: 26px;
-	height: 26px;
+	height: 30px;
 	border-right: 1px solid #DDD;
 	border-bottom: 1px solid #DDD;
 	-webkit-transform: rotate(-45deg);

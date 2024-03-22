@@ -1,81 +1,78 @@
 <footer>
-  <div class="container">
-    <hr>
-    <div class="pt-5">
-      <div class="row">
-        <div class="col-xl-4 col-md-4 mb-30">
-            <div class="single-cta">
-                <i class="fas fa-map-marker-alt"></i>
-                <div class="cta-text">
-                    <h4><?php echo $text_findus; ?></h4>
-                    <span><a href="index.php?route=information/contact">
-                    LA PAZ 2150 – Martínez Bs As – Arg
-                    </a></span>
-                </div>
+  <hr>
+  <div class="container pt-5">
+    <div class="col-xl-4 col-md-4 mb-30 d-flex justify-content-center">
+        <div class="single-cta">
+            <i class="fas fa-map-marker-alt"></i>
+            <div class="cta-text">
+                <h4><?php echo $text_findus; ?></h4>
+                <span><a href="index.php?route=information/contact">
+                LA PAZ 2150 – Martínez Bs As – Arg
+                </a></span>
             </div>
         </div>
-        <div class="col-xl-4 col-md-4 mb-30">
-            <div class="single-cta">
-                <i class="fa fa-whatsapp"></i>
-                <div class="cta-text">
-                <a href="https://api.whatsapp.com/send?phone=+5491161995308&text=Estoy%20interesado%20en%20contactarlos"><h4><?php echo $text_callus; ?></h4></a>
-                    <span><a href="https://api.whatsapp.com/send?phone=+5491161995308&text=Estoy%20interesado%20en%20contactarlos">+549 11 6199-5308</a></span>
-                </div>
-            </div>
-        </div>
-        <div class="col-xl-4 col-md-4 mb-30">
-            <div class="single-cta">
-                <i class="far fa-envelope-open"></i>
-                <div class="cta-text">
-                    <h4><?php echo $text_mailus; ?></h4>
-                    <span><a href="mailto:info@calastreme.com.ar">info@calastreme.com.ar</a></span>
-                </div>
-            </div>
-        </div>
-      </div>
     </div>
-    <hr>
-    <div class="row pt-5 pb-5">
-      <div class="col-md-6 col-sm-12">
-        <a href="index.html" class="big-logo">
-          <img src="image\catalog\calastreme\logo\logo_footer_Color.png" alt="">
-        </a>
-          <h2 class="p-5"><?php echo $text_aboutus; ?></h2>
-      </div>
+    <div class="col-xl-4 col-md-4 mb-30 d-flex justify-content-center">
+        <div class="single-cta">
+            <i class="fa fa-whatsapp"></i>
+            <div class="cta-text">
+            <a href="https://api.whatsapp.com/send?phone=+5491161995308&text=Estoy%20interesado%20en%20contactarlos"><h4><?php echo $text_callus; ?></h4></a>
+                <span><a href="https://api.whatsapp.com/send?phone=+5491161995308&text=Estoy%20interesado%20en%20contactarlos">+549 11 6199-5308</a></span>
+            </div>
+        </div>
+    </div>
+    <div class="col-xl-4 col-md-4 mb-30 d-flex justify-content-center">
+        <div class="single-cta">
+            <i class="far fa-envelope-open"></i>
+            <div class="cta-text">
+                <h4><?php echo $text_mailus; ?></h4>
+                <span><a href="mailto:info@calastreme.com.ar">info@calastreme.com.ar</a></span>
+            </div>
+        </div>
+    </div>
+  </div>
+  <hr>
+  <div class="container pt-5 pb-5">
+    <div class="col-md-6 col-sm-12">
+      <a href="index.html" class="big-logo">
+        <img src="image\catalog\calastreme\logo\logo_footer_Color.png" alt="">
+      </a>
+        <h2 class="p-5"><?php echo $text_aboutus; ?></h2>
+    </div>
 
-      <?php if ($informations) { ?>
-      <div class="col-6 col-md-3 col-sm-6">
-        <h5><?php echo $text_information; ?></h5>
-        <ul class="list-unstyled">
-          <li><a href="index.php?route=information/contact">Contacto</a></li>
-          <?php foreach ($informations as $information) { ?>
-           <li><a href="<?php echo $information['href']; ?>"><?php echo $information['title']; ?></a></li> 
-          <!-- <li><a href="#"><?php echo $information['title']; ?></a></li> -->
-          <?php } ?>
-        </ul>
-      </div>
-      <?php } ?>
-    
-      <div class="col-6 col-md-3 col-sm-6">
-        <!-- <h5><?php echo $text_account; ?></h5> -->
-        <h5>Categorias</h5>
-        <ul class="list-unstyled">
-          <!-- <li><a href="<?php echo $account; ?>"><?php echo $text_account; ?></a></li>
-          <li><a href="<?php echo $order; ?>"><?php echo $text_order; ?></a></li>
-          <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
-          <li><a href="<?php echo $newsletter; ?>"><?php echo $text_newsletter; ?></a></li> 
-          <li><a href="#"><?php echo $text_newsletter; ?></a></li> -->
-          <li><a href="products">Todos</a></li>
-          <li><a href="productsEquinos">Equinos</a></li>
-          <li><a href="productsGrandesAnimales">Grandes Animales</a></li>
-          <li><a href="productsPequenosAnimales">Pequeños Animales</a></li>
-          
-          
-        </ul>
-      </div>
+    <?php if ($informations) { ?>
+    <div class="col-6 col-md-3 col-sm-6">
+      <h5><?php echo $text_information; ?></h5>
+      <ul class="list-unstyled">
+        <li><a href="index.php?route=information/contact">Contacto</a></li>
+        <?php foreach ($informations as $information) { ?>
+          <li><a href="<?php echo $information['href']; ?>"><?php echo $information['title']; ?></a></li> 
+        <!-- <li><a href="#"><?php echo $information['title']; ?></a></li> -->
+        <?php } ?>
+      </ul>
     </div>
-    <hr>
-    <div class="row">
+    <?php } ?>
+  
+    <div class="col-6 col-md-3 col-sm-6">
+      <!-- <h5><?php echo $text_account; ?></h5> -->
+      <h5>Categorias</h5>
+      <ul class="list-unstyled">
+        <!-- <li><a href="<?php echo $account; ?>"><?php echo $text_account; ?></a></li>
+        <li><a href="<?php echo $order; ?>"><?php echo $text_order; ?></a></li>
+        <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+        <li><a href="<?php echo $newsletter; ?>"><?php echo $text_newsletter; ?></a></li> 
+        <li><a href="#"><?php echo $text_newsletter; ?></a></li> -->
+        <li><a href="products">Todos</a></li>
+        <li><a href="productsEquinos">Equinos</a></li>
+        <li><a href="productsGrandesAnimales">Grandes Animales</a></li>
+        <li><a href="productsPequenosAnimales">Pequeños Animales</a></li>
+        
+        
+      </ul>
+    </div>
+  </div>
+  <hr>
+    <div class="container">
       <div class="col-md-8 text-md-left">
         <div class="d-inline-block mr-md-2">
           <p><?php echo $powered; ?></p>

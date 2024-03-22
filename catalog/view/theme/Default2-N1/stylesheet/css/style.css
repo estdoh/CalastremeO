@@ -126,6 +126,7 @@ p {
   color: "Helvetica Neue", sans-serif;
   font-size: 15px;
   line-height: 30px;
+  letter-spacing: 0.5px;
   margin-bottom: 15px;
   font-weight: normal;
 }

@@ -92,9 +92,9 @@
             <div class="col-xl-2 col-lg-2 col-md-1">
                 <div class="logo">
                     <!-- logo-1 -->
-                    <a href="#" class="big-logo"><img src="image\catalog\calastreme\logo\logo2.png" alt=""></a>
+                    <a href="#" class="big-logo"><img src="image\catalog\calastreme\logo\logo2_footer2" alt=""></a>
                     <!-- logo-2 -->
-                    <a href="#" class="small-logo"><img src="image\catalog\calastreme\logo\logo2.png" alt=""></a>
+                    <a href="#" class="small-logo"><img src="image\catalog\calastreme\logo\logo2_footer2" alt=""></a>
                 </div>
             </div>
             <div class="col-xl-8 col-lg-8 col-md-8">

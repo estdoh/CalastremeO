@@ -94,3 +94,66 @@ function alterColorCategory() {
     adaptiveHeight: true,
     arrows: false
   });
+
+
+//   var imgUrl = document.querySelector('.thumbnail').children[0].currentSrc;
+//   var imgproduct = document.querySelector('.thumbnail').children[0];
+
+// var imgBox = document.querySelector(".thumbnail");
+// console.log(imgBox);
+// var zoom = null;
+// imgBox.style.backgroundImage = imgUrl;
+
+// function createZoom(){
+//   var zoomEl = document.createElement('div');
+//   zoomEl.classList.add('zoom');
+//   zoomEl.style.backgroundImage = imgUrl;
+//   zoom = zoomEl;
+//   imgBox.appendChild(zoomEl);
+// }
+
+// function removeZoom(){
+//   if (zoom) {
+//     imgBox.removeChild(zoom);
+//     zoom = null;
+//   }
+// }
+
+// function zoomedImg(e){
+//   let zoomSize = parseInt(imgproduct.height)
+//   let imgBoxSize = parseInt(imgproduct.height)
+  
+//   let photoBounding = imgBox.getBoundingClientRect()
+  
+//   let MAX_POSITION = imgBoxSize - zoomSize;
+  
+//   let x = e.clientX - photoBounding.left;
+//   let y = e.clientY - photoBounding.top;
+
+//   x -= zoomSize / 2;
+//   y -= zoomSize / 2;
+
+//   if (x + zoomSize > imgBoxSize) {
+//     x = MAX_POSITION;
+//   }
+  
+//   if (y + zoomSize > imgBoxSize) {
+//     y = MAX_POSITION;
+//   }
+  
+//   if (x < 0) {
+//     x = 0;
+//   }
+  
+//   if (y < 0) {
+//     y = 0;
+//   }
+    
+//   zoom.style.left = x + "px";
+//   zoom.style.top = y + "px";
+//   zoom.style.backgroundPosition = - x * 2.9 +"px " + - y * 2.9 + "px";  
+// }
+
+// imgBox.addEventListener("mouseenter", createZoom);
+// imgBox.addEventListener("mouseleave", removeZoom);
+// imgBox.addEventListener('mousemove', zoomedImg);
