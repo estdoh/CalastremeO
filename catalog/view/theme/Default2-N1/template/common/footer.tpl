@@ -44,7 +44,7 @@
     <div class="col-6 col-md-3 col-sm-6">
       <h5><?php echo $text_information; ?></h5>
       <ul class="list-unstyled">
-        <li><a href="index.php?route=information/contact">Contacto</a></li>
+        <li><a href="index.php?route=information/contact"><?php echo $text_contact; ?></a></li>
         <?php foreach ($informations as $information) { ?>
           <li><a href="<?php echo $information['href']; ?>"><?php echo $information['title']; ?></a></li> 
         <!-- <li><a href="#"><?php echo $information['title']; ?></a></li> -->
@@ -62,10 +62,10 @@
         <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
         <li><a href="<?php echo $newsletter; ?>"><?php echo $text_newsletter; ?></a></li> 
         <li><a href="#"><?php echo $text_newsletter; ?></a></li> -->
-        <li><a href="products">Todos</a></li>
-        <li><a href="productsEquinos">Equinos</a></li>
-        <li><a href="productsGrandesAnimales">Grandes Animales</a></li>
-        <li><a href="productsPequenosAnimales">Pequeños Animales</a></li>
+        <li><a href="products"><?php echo $text_cat_all; ?></a></li>
+        <li><a href="productsEquinos"><?php echo $text_cat_equines; ?></a></li>
+        <li><a href="productsGrandesAnimales"><?php echo $text_cat_large; ?></a></li>
+        <li><a href="productsPequenosAnimales"><?php echo $text_cat_small; ?></a></li>
         
         
       </ul>

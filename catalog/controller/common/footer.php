@@ -23,6 +23,10 @@ class ControllerCommonFooter extends Controller {
 		$data['text_findus'] = $this->language->get('text_findus');
 		$data['text_mailus'] = $this->language->get('text_mailus');
 		$data['text_aboutus'] = $this->language->get('text_aboutus');
+		$data['text_cat_all'] = $this->language->get('text_cat_all');
+		$data['text_cat_small'] = $this->language->get('text_cat_small');
+		$data['text_cat_large'] = $this->language->get('text_cat_large');
+		$data['text_cat_equines'] = $this->language->get('text_cat_equines');
 
 		$this->load->model('catalog/information');
 

@@ -11,8 +11,8 @@
   <div class="container">
     <div class="section-tittle mt-5">
       <div class="front-text">
-        <h2>Contacto</h2>
-        <p>Contactate con Nosotros</p>
+        <h2><?php echo $text_title; ?></h2>
+        <p><?php echo $text_description; ?></p>
       </div>
     </div>
   </div>

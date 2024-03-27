@@ -12,6 +12,8 @@ $_['text_fax']       = 'Fax';
 $_['text_open']      = 'Horarios';
 $_['text_comment']   = 'Comentarios';
 $_['text_success']   = '<p>Su Pregunta ha sido enviada correctamente!</p>';
+$_['text_title']     = 'CONTACTO';
+$_['text_description'] = 'Contactate con Nosotros';
 
 // Entry Fields
 $_['entry_name']     = 'Nombre:';

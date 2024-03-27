@@ -18,6 +18,9 @@ $_['text_powered']      = '%s &copy; %s |';
 $_['text_callus']      = 'Contactanos';
 $_['text_mailus']      = 'Correo';
 $_['text_findus']      = 'Donde estamos';
-$_['text_aboutus']      = '
-La linea mas completa de productos veterinarios!
-';
+$_['text_aboutus']      = 'La linea mas completa de productos veterinarios!';
+$_['text_cat_all']      = 'Todos';
+$_['text_cat_small']      = 'Animales Pequeños';
+$_['text_cat_large']      = 'Animales Grandes';
+$_['text_cat_equines']      = 'Equinos';
+

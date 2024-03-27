@@ -101,12 +101,12 @@
                 <!-- Main-menu -->
                 <div class="main-menu f-right d-none d-lg-block uppercase">
                     <nav> 
-                        <ul id="navigation">                                                                                                                   
-                            <li><a href="#" >HOME</a></li>
-                            <li><a href="about_us" >NOSOTROS</a></li>
-                            <li><a href="products">PRODUCTOS</a></li>                            
-                            <li><a href="index.php?route=information/contact">CONTACTO</a></li>
-                            <li><a href="comex">COMERCIO EXTERIOR</a></li>
+                        <ul id="navigation" class="text-uppercase">                                                                                                                   
+                            <li><a href="#"><?php echo $text_showhome; ?></a></li>
+                            <li><a href="about_us" ><?php echo $text_about; ?></a></li>
+                            <li><a href="products"><?php echo $text_products ?></a></li>                            
+                            <li><a href="index.php?route=information/contact"><?php echo $text_contact; ?></a></li>
+                            <li><a href="comex"><?php echo $text_comex; ?></a></li>
                             <li>
                               <div class="dropdown">
                                 <button class="btnheader btn-secondary btn-sm dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
