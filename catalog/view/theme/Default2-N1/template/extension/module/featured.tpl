@@ -3,7 +3,7 @@
        <div class="col-xl-12">
          <div class="section-tittle section-tittle7 mt-50">
            <div class="front-text d-flex justify-content-center">
-             <h2>Productos Estrella</h2>
+             <h2><?php echo $heading_title; ?></h2>
            </div>
          </div>
        </div>
