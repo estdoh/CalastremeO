@@ -120,7 +120,6 @@ h6 {
   text-transform: normal;
 }
 
-
 p {
   font-family: "Helvetica Neue", sans-serif;
   color: "Helvetica Neue", sans-serif;
@@ -393,10 +392,11 @@ hr {
   letter-spacing: 1px;
   line-height: 0;
   padding: 25px 22px;
-
 }
 
-.btn-secondary:not(:disabled):not(.disabled).active, .btn-secondary:not(:disabled):not(.disabled):active, .show>.btn-secondary.dropdown-toggle {
+.btn-secondary:not(:disabled):not(.disabled).active,
+.btn-secondary:not(:disabled):not(.disabled):active,
+.show > .btn-secondary.dropdown-toggle {
   color: #fff;
   background-color: #8ed2eb;
 }
@@ -405,7 +405,7 @@ hr {
   height: 40px;
   width: 200px;
 }
-.open>.dropdown-menu {
+.open > .dropdown-menu {
   display: none;
 }
 
@@ -1791,7 +1791,6 @@ hr {
   }
 }
 
-
 /* @font-face{
     font-family: 'chillout_for_personal_useRg';
     src: url('assets/fonts/chillout-webfont.woff2') format('woff2'),
@@ -1827,7 +1826,7 @@ hr {
 
 .sport-tittle h2 {
   color: #ffffff;
-  background-color: #1160AB;
+  background-color: #1160ab;
   letter-spacing: 2px;
   font-size: 30px;
   font-weight: 700;
@@ -1835,7 +1834,7 @@ hr {
   text-transform: uppercase;
   /* font-family: "chillout_for_personal_useRg"; */
   font-family: "Helvetica Neue", sans-serif;
-} 
+}
 @media (max-width: 991px) {
   .sport-tittle h2 {
     font-size: 20px;
@@ -2037,7 +2036,7 @@ hr {
 
 .section-tittle.section-tittle7 .front-text h2 {
   font-size: 70px;
-  color: #1160AB;
+  color: #1160ab;
 }
 @media (max-width: 575px) {
   .section-tittle.section-tittle7 .front-text h2 {

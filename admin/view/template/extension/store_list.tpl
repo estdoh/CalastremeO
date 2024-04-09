@@ -27,8 +27,7 @@
             <div class="col-md-4 text-center">
               <div class="thumbnail">
                 <img src="../image/store/Excel_Import_export.jpg" alt="Store 1" title="Store 1" class="img-responsive" />
-                <div class="caption">
-                <!-- create budget de price to the caption -->
+                <div class="caption">                
                   <h4>Store 1</h4>
                   <p>Store 1 Description</p>
                   <p>Price: U$D 20</p>
@@ -40,10 +39,10 @@
               <div class="thumbnail">
                 <img src="../image/store/Excel_Import_export.jpg" alt="Store 2" title="Store 2" class="img-responsive" />
                 <div class="caption">
-                  <h4>Export Import with Excel</h4>
-                  <p>Export-Import to Excel PRO: products, categories, attributes ...</p>
+                  <h4>Report products view</h4>
+                  <p>Active report to products view on this site</p>
                   <!-- add price -->
-                  <p>Price: U$D 70</p>
+                  <p>Price: U$D 20</p>
                   <p><a href="#" class="btn btn-primary" target="_blank"><i class="fa fa-share"></i> Contact with de webmaster</a></p>
 
                 </div>
@@ -53,14 +52,46 @@
               <div class="thumbnail">
                 <img src="../image/store/Excel_Import_export.jpg" alt="Store 3" title="Store 3" class="img-responsive" />
                 <div class="caption">
-                  <h4>Store 3</h4>
-                  <p>Store 3 Description</p>
-                  <p>Price: U$D 40</p>
+                  <h4>Discount coupons</h4>
+                  <p>coupons Discount for your stores</p>
+                  <p>Price: U$D 20</p>
                   <p><a href="#" class="btn btn-primary" target="_blank"><i class="fa fa-share"></i> Contact with de webmaster</a></p>
                 </div>
               </div>
             </div>
-        
+            <div class="col-md-4 text-center">
+              <div class="thumbnail">
+                <img src="../image/store/Excel_Import_export.jpg" alt="Store 3" title="Store 3" class="img-responsive" />
+                <div class="caption">
+                  <h4>Add google Analitics</h4>
+                  <p>Add the google Analitics to your application</p>
+                  <p>Price: U$D 20</p>
+                  <p><a href="#" class="btn btn-primary" target="_blank"><i class="fa fa-share"></i> Contact with de webmaster</a></p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 text-center">
+              <div class="thumbnail">
+                <img src="../image/store/Excel_Import_export.jpg" alt="Store 3" title="Store 3" class="img-responsive" />
+                <div class="caption">
+                  <h4>Extendes product Limit</h4>
+                  <p> Extends the limit of the product limit( +150 -500) to your store</p>
+                  <p>Price: U$D 20</p>
+                  <p><a href="#" class="btn btn-primary" target="_blank"><i class="fa fa-share"></i> Contact with de webmaster</a></p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 text-center">
+              <div class="thumbnail">
+                <img src="../image/store/Excel_Import_export.jpg" alt="Store 3" title="Store 3" class="img-responsive" />
+                <div class="caption">
+                  <h4>Discount coupons</h4>
+                  <p>coupons Discount for your stores</p>
+                  <p>Price: U$D 20</p>
+                  <p><a href="#" class="btn btn-primary" target="_blank"><i class="fa fa-share"></i> Contact with de webmaster</a></p>
+                </div>
+              </div>
+            </div>
         
         </div>
       </div>
