@@ -32,16 +32,16 @@
     </div>
   </div>
   <hr>
-  <div class="container pt-5 pb-5">
-    <div class="col-md-6 col-sm-12">
+  <div class="container pb-5">
+    <div class="col-md-6 col-sm-12 pt-5">
       <a href="index.html" class="big-logo">
         <img src="image\catalog\calastreme\logo\logo_footer_Color.png" alt="">
       </a>
         <!-- <h2 class="p-5"><?php echo $text_aboutus; ?></h2> -->
     </div>
-    <div class="">
+    <div class="row pt-5">
       <?php if ($informations) { ?>
-      <div class="col-6 col-md-3 col-sm-6">
+      <div class="col">
         <h5><?php echo $text_information; ?></h5>
         <ul class="list-unstyled">
           <li><a href="index.php?route=information/contact"><?php echo $text_contact; ?></a></li>
@@ -53,7 +53,7 @@
       </div>
       <?php } ?>
     
-      <div class="col-6 col-md-3 col-sm-6">
+      <div class="col">
         <!-- <h5><?php echo $text_account; ?></h5> -->
         <h5>Categorias</h5>
         <ul class="list-unstyled">
