@@ -18,41 +18,48 @@
       <div class="panel-body">
 
         <div class="well">
-          <div class="input-group">
-            <input type="text" name="search" value="" placeholder="Search for extensions" class="form-control" />
-            <div class="input-group-btn">
-
-              <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">License (All) <span class="caret"></span></button>
-              
-              <ul class="dropdown-menu">
-                <li class="dropdown-header">License</li>
-                <li><a href="">License</a></li>
-                <li><a href="free"><?php echo $text_free; ?></a></li>
-                <li><a href="paid"><?php echo $text_paid; ?></a></li>
-              </ul>
-
-              <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Categories (Themes) <span class="caret"></span></button>
-              
-              <ul class="dropdown-menu">
-                <li><a href="">All Categories</a></li>
-                <li><a href="theme"><?php echo $text_theme; ?></a></li>
-                <li><a href="payment"><?php echo $text_payment; ?></a></li>
-                <li><a href="shipping"><?php echo $text_shipping; ?></a></li>
-                <li><a href="module"><?php echo $text_module; ?></a></li>
-                <li><a href="total"><?php echo $text_total; ?></a></li>
-                <li><a href="feed"><?php echo $text_feed; ?></a></li>
-                <li><a href="report"><?php echo $text_report; ?></a></li>
-                <li><a href="other"><?php echo $text_other; ?></a></li>
-              </ul>
-              
-              <button type="button" id="button-filter" class="btn btn-primary"><i class="fa fa-filter"></i></button>
-
-            </div>
-          </div>
+          
         </div>
-       </fieldset>
+       <!-- </fieldset>-->
         <div id="store">
-        
+          <!-- generate 6div con boostrap para presentar opciones que tengan con una imagen, titulo y un parrafo corto -->
+          <div class="row">
+            <div class="col-md-4 text-center">
+              <div class="thumbnail">
+                <img src="../image/store/Excel_Import_export.jpg" alt="Store 1" title="Store 1" class="img-responsive" />
+                <div class="caption">
+                <!-- create budget de price to the caption -->
+                  <h4>Store 1</h4>
+                  <p>Store 1 Description</p>
+                  <p>Price: U$D 20</p>
+                  <p><a href="#" class="btn btn-primary" target="_blank"><i class="fa fa-share"></i> Contact with de webmaster</a></p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 text-center">
+              <div class="thumbnail">
+                <img src="../image/store/Excel_Import_export.jpg" alt="Store 2" title="Store 2" class="img-responsive" />
+                <div class="caption">
+                  <h4>Export Import with Excel</h4>
+                  <p>Export-Import to Excel PRO: products, categories, attributes ...</p>
+                  <!-- add price -->
+                  <p>Price: U$D 70</p>
+                  <p><a href="#" class="btn btn-primary" target="_blank"><i class="fa fa-share"></i> Contact with de webmaster</a></p>
+
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 text-center">
+              <div class="thumbnail">
+                <img src="../image/store/Excel_Import_export.jpg" alt="Store 3" title="Store 3" class="img-responsive" />
+                <div class="caption">
+                  <h4>Store 3</h4>
+                  <p>Store 3 Description</p>
+                  <p>Price: U$D 40</p>
+                  <p><a href="#" class="btn btn-primary" target="_blank"><i class="fa fa-share"></i> Contact with de webmaster</a></p>
+                </div>
+              </div>
+            </div>
         
         
         </div>

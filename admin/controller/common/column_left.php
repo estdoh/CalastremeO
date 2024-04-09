@@ -38,7 +38,7 @@ class ControllerCommonColumnLeft extends Controller {
 				'name'	   => $this->language->get('text_dashboard'),
 				'href'     => $this->url->link('common/dashboard', 'token=' . $this->session->data['token'], true),
 				'children' => array()
-			);
+			);		
 			
 			// Catalog
 			$catalog = array();
@@ -155,15 +155,26 @@ class ControllerCommonColumnLeft extends Controller {
 	
 			// Extension
 			$extension = array();
-			/*
-			if ($this->user->hasPermission('access', 'extension/store')) {		
+			
+			/* if ($this->user->hasPermission('access', 'extension/store')) {		
 				$extension[] = array(
 					'name'	   => $this->language->get('text_store'),
 					'href'     => $this->url->link('extension/store', 'token=' . $this->session->data['token'], true),
 					'children' => array()		
 				);					
+			} */
+			
+
+			// DOHStore
+			// $dohstore = array();
+			if ($this->user->hasPermission('access', 'extension/dohstore')) {
+				$extension[] = array(
+					'name'	   => $this->language->get('text_dohstore'),
+					'href'     => $this->url->link('extension/dohstore', 'token=' . $this->session->data['token'], true),
+					'children' => array()		
+				);
 			}
-			*/
+			
 			if ($this->user->hasPermission('access', 'extension/installer')) {		
 				$extension[] = array(
 					'name'	   => $this->language->get('text_installer'),

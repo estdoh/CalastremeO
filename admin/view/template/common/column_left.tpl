@@ -77,4 +77,6 @@
       </li>
     </ul>
   </div>
+
+  <img src="<?php echo $image; ?>" alt="<?php echo $firstname; ?> <?php echo $lastname; ?>" title="<?php echo $username; ?>" class="img-circle" />
 </nav>

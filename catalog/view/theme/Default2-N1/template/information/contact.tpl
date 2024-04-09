@@ -167,4 +167,12 @@
   </div>
 </div>
 
+<script>
+  function onClick(e) {
+    e.preventDefault();
+    grecaptcha.enterprise.ready(async () => {
+      const token = await grecaptcha.enterprise.execute('6LfmVaQpAAAAAPi45ojCs1XVdO0gN314nCkIFTvc', {action: 'LOGIN'});
+    });
+  }
+</script>
 <?php echo $footer; ?>

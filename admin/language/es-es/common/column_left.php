@@ -8,6 +8,7 @@ $_['text_backup']                    = 'Respaldo / Restaurar';
 $_['text_banner']                    = 'Banners';
 $_['text_catalog']                   = 'Cat&aacute;logo';
 $_['text_category']                  = 'Categorías';
+$_['text_dohstore']                  = 'DohStore';
 $_['text_country']                   = 'Países';
 $_['text_coupon']                    = 'Cupones';
 $_['text_currency']                  = 'Monedas';
