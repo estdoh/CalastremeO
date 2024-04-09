@@ -121,10 +121,10 @@ h6 {
 }
 
 p {
-  font-family: "Helvetica Neue", sans-serif;
-  color: "Helvetica Neue", sans-serif;
-  font-size: 15px;
-  line-height: 30px;
+  font-family: "Helvetica Neue";
+  /* color: "Helvetica Neue", sans-serif; */
+  font-size: 17px;
+  line-height: 32px;
   letter-spacing: 0.5px;
   margin-bottom: 15px;
   font-weight: normal;
@@ -333,7 +333,7 @@ hr {
   background: #ff3500;
 }
 .btn {
-  background: #8ed2eb;
+  background: #11b1e2;
   text-transform: uppercase;
   color: #fff;
   cursor: pointer;

@@ -78,13 +78,14 @@
   <div class="topbar .bg-light.bg-gradient">
     <span class="topbar-child1">
       <div class="d-flex justify-content-around">
-        <?php echo $currency; ?>
-        <?php echo $language; ?>
-        <ul class="nav list-unstyled navfootersm">
+      <ul class="nav list-unstyled navfootersm">
           <li class="ms-3"><a class="text-muted" href="https://www.facebook.com/laboratoriocalastreme" target="_blank"><i class="fa fa-facebook"></i></a></li>
           <li class="ms-3"><a class="text-muted" href="https://www.instagram.com/laboratoriocalastreme" target="_blank"><i class="fa fa-instagram"></i></a></li>
           <li class="ms-3"><a class="text-muted" href="https://api.whatsapp.com/send?phone=+5491161995308&text=Estoy%20interesado%20en%20contactarlos" target="_blank"><i class="fa fa-whatsapp"></i></a></li>
         </ul>
+        <?php echo $currency; ?>
+        <?php echo $language; ?>
+        
       </div>      
     </span>    
   </div> 

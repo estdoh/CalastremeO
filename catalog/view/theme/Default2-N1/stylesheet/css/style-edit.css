@@ -1,5 +1,5 @@
 html{
-    zoom: 0.9;
+    zoom: 1;
     font-family: "Helvetica Neue";
 }
 
@@ -116,7 +116,7 @@ ul {
 
 .single-cta .cta-text a:hover {
   color: #0069d9;
-  font-weight: bolder;
+  /* font-weight: bolder; */
   /* color: white;
   text-decoration: none; */
   /* padding: 0.5em 0.5em 0.5em; */
@@ -445,7 +445,8 @@ legend {
   top: 0;
   width: 101%;
   height: 101%;
-  background: #11b1e2;
+  /* background: #11b1e2; */
+  background: #8fe5ff;
 }
 #Equinos {
   border-left-color: rgb(221, 48, 48);;
@@ -462,6 +463,9 @@ legend {
 
 #Antibioticos {
   border-left-color: rgb(0, 183, 255);
+}
+#Anestesicos {
+  border-left-color: rgb(92, 54, 54);
 }
 #Antiinflamatorios {
   border-left-color: green;
@@ -532,7 +536,7 @@ legend {
 #Cosmeticos::before {
   background: rgb(221, 48, 91);
 }
-#Anestesicos::before {
+#Anestesicos::hover {
   background: rgb(92, 54, 54);
   color: white;
 }
@@ -603,6 +607,9 @@ legend {
   display: none;
 }
 
+.col-sm-12.col-md-6.d-flex.align-items-start.pt-3.pb-3:hover {
+  background-color: #8ed2eb6c;
+}
 
 .slick-prev:hover, .slick-prev:focus, .slick-next:hover, .slick-next:focus {
   color: #0069d9;

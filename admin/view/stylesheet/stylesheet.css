@@ -1,9 +1,10 @@
-@import url(//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800&subset=latin,cyrillic-ext,greek-ext,vietnamese);
+/* @import url(//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800&subset=latin,cyrillic-ext,greek-ext,vietnamese); */
 html, body {
 	height: 100%;
 	margin: 0;
 	padding: 0;
-	font-family: 'Open Sans', sans-serif;
+	/* font-family: 'Open Sans', sans-serif; */
+	font-family: Helvetica Neue, Helvetica;
 	font-size: 12px;
 	color: #666666;
 	text-rendering: optimizeLegibility;
@@ -19,7 +20,7 @@ h1, h2, h3, h4, h5, h6, p {
 	border-bottom: none;
 }
 .page-header h1 {
-	font-family: 'Open Sans', sans-serif;
+	/* font-family: 'Open Sans', sans-serif; */
 	font-weight: 400;
 	font-size: 30px;
 	color: #848484;
