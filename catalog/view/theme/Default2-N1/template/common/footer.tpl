@@ -1,7 +1,16 @@
 <footer>
   <hr>
   <div class="container pt-5">
-    <div class="col-lg-4 col-md-4 mb-30 ">
+    <div class="col-lg-4 col-md-4 mb-30 d-flex justify-content-center">
+        <div class="single-cta">
+            <i class="fa fa-whatsapp"></i>
+            <div class="cta-text">
+            <a href="https://api.whatsapp.com/send?phone=+5491161995308&text=Estoy%20interesado%20en%20contactarlos"><h4><?php echo $text_callus; ?></h4></a>
+                <span><a href="https://api.whatsapp.com/send?phone=+5491161995308&text=Estoy%20interesado%20en%20contactarlos">+549 11 6199-5308</a></span>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-4 col-md-4 mb-30 d-flex justify-content-center">
         <div class="single-cta">
             <i class="fas fa-map-marker-alt"></i>
             <div class="cta-text">
@@ -12,7 +21,7 @@
             </div>
         </div>
     </div>
-    <div class="col-lg-4 col-md-4 mb-30">
+    <div class="col-lg-4 col-md-4 mb-30 d-flex justify-content-center">
         <div class="single-cta">
             <i class="far fa-envelope-open"></i>
             <div class="cta-text">
@@ -20,19 +29,10 @@
                 <span><a href="mailto:info@calastreme.com.ar">info@calastreme.com.ar</a></span>
             </div>
         </div>
-    </div>
-    <div class="col-lg-4 col-md-4 mb-30">
-        <div class="single-cta">
-            <i class="fa fa-whatsapp"></i>
-            <div class="cta-text">
-            <a href="https://api.whatsapp.com/send?phone=+5491161995308&text=Estoy%20interesado%20en%20contactarlos"><h4><?php echo $text_callus; ?></h4></a>
-                <span><a href="https://api.whatsapp.com/send?phone=+5491161995308&text=Estoy%20interesado%20en%20contactarlos">+549 11 6199-5308</a></span>
-            </div>
-        </div>
-    </div>
+    </div>    
   </div>
   <hr>
-  <div class="container pb-5">
+  <div class="container pb-5 ">
     <div class="col-md-6 col-sm-12 pt-5">
       <a href="index.html" class="big-logo">
         <img src="image\catalog\calastreme\logo\logo_footer_Color.png" alt="">

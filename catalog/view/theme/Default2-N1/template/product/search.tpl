@@ -14,11 +14,11 @@
     <?php $class = 'col-sm-12'; ?>
     <?php } ?>
     <div id="content" class="<?php echo $class; ?>"><?php echo $content_top; ?>
-      <h1><?php echo $heading_title; ?></h1>
-      <label class="control-label" for="input-search"><?php echo $entry_search; ?></label>
+      <h1 class="p-4"><?php echo $heading_title; ?></h1>
+      <!-- <label class="control-label" for="input-search"><?php echo $entry_search; ?></label> -->
       <div class="row">
-        <div class="col-sm-4">
-          <input type="text" name="search" value="<?php echo $search; ?>" placeholder="<?php echo $text_keyword; ?>" id="input-search" class="form-control" />
+        <div class="col-sm-3">
+          <input type="text" name="search" value="<?php echo $search; ?>" placeholder="<?php echo $text_keyword; ?>" id="input-search" class="nice-select" />
         </div>
         <div class="col-sm-3">
           <select name="category_id" class="form-control">
@@ -35,28 +35,29 @@
             <?php } else { ?>
             <option value="<?php echo $category_2['category_id']; ?>">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<?php echo $category_2['name']; ?></option>
             <?php } ?>
-            <?php foreach ($category_2['children'] as $category_3) { ?>
+            <!-- <?php foreach ($category_2['children'] as $category_3) { ?>
             <?php if ($category_3['category_id'] == $category_id) { ?>
             <option value="<?php echo $category_3['category_id']; ?>" selected="selected">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<?php echo $category_3['name']; ?></option>
             <?php } else { ?>
             <option value="<?php echo $category_3['category_id']; ?>">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<?php echo $category_3['name']; ?></option>
             <?php } ?>
-            <?php } ?>
+            <?php } ?> -->
             <?php } ?>
             <?php } ?>
           </select>
         </div>
         <div class="col-sm-3">
-          <label class="checkbox-inline">
+        <input type="button" value="<?php echo $button_search; ?>" id="button-search" class="btn btn-primary" />
+          <!--<label class="checkbox-inline">
             <?php if ($sub_category) { ?>
             <input type="checkbox" name="sub_category" value="1" checked="checked" />
             <?php } else { ?>
             <input type="checkbox" name="sub_category" value="1" />
             <?php } ?>
-            <?php echo $text_sub_category; ?></label>
+             <?php echo $text_sub_category; ?> </label> -->
         </div>
       </div>
-      <p>
+      <!-- <p>
         <label class="checkbox-inline">
           <?php if ($description) { ?>
           <input type="checkbox" name="description" value="1" id="description" checked="checked" />
@@ -64,50 +65,18 @@
           <input type="checkbox" name="description" value="1" id="description" />
           <?php } ?>
           <?php echo $entry_description; ?></label>
-      </p>
-      <input type="button" value="<?php echo $button_search; ?>" id="button-search" class="btn btn-primary" />
-      <h2><?php echo $text_search; ?></h2>
+      </p> -->
+      
+      <h2 class="pt-5"><?php echo $text_search; ?></h2>
       <?php if ($products) { ?>
-      <div class="row">
+      <div class="row pt-5">
         <div class="col-md-2 col-sm-6 hidden-xs">
-          <div class="btn-group btn-group-sm">
+         <!-- <div class="btn-group btn-group-sm">
             <button type="button" id="list-view" class="btn btn-default" data-toggle="tooltip" title="<?php echo $button_list; ?>"><i class="fa fa-th-list"></i></button>
             <button type="button" id="grid-view" class="btn btn-default" data-toggle="tooltip" title="<?php echo $button_grid; ?>"><i class="fa fa-th"></i></button>
-          </div>
+          </div> -->
         </div>
-        <div class="col-md-3 col-sm-6">
-          <div class="form-group">
-            <a href="<?php echo $compare; ?>" id="compare-total" class="btn btn-link"><?php echo $text_compare; ?></a>
-          </div>
-        </div>
-        <div class="col-md-4 col-xs-6">
-          <div class="form-group input-group input-group-sm">
-            <label class="input-group-addon" for="input-sort"><?php echo $text_sort; ?></label>
-            <select id="input-sort" class="form-control" onchange="location = this.value;">
-              <?php foreach ($sorts as $sorts) { ?>
-              <?php if ($sorts['value'] == $sort . '-' . $order) { ?>
-              <option value="<?php echo $sorts['href']; ?>" selected="selected"><?php echo $sorts['text']; ?></option>
-              <?php } else { ?>
-              <option value="<?php echo $sorts['href']; ?>"><?php echo $sorts['text']; ?></option>
-              <?php } ?>
-              <?php } ?>
-            </select>
-          </div>
-        </div>
-        <div class="col-md-3 col-xs-6">
-          <div class="form-group input-group input-group-sm">
-            <label class="input-group-addon" for="input-limit"><?php echo $text_limit; ?></label>
-            <select id="input-limit" class="form-control" onchange="location = this.value;">
-              <?php foreach ($limits as $limits) { ?>
-              <?php if ($limits['value'] == $limit) { ?>
-              <option value="<?php echo $limits['href']; ?>" selected="selected"><?php echo $limits['text']; ?></option>
-              <?php } else { ?>
-              <option value="<?php echo $limits['href']; ?>"><?php echo $limits['text']; ?></option>
-              <?php } ?>
-              <?php } ?>
-            </select>
-          </div>
-        </div>
+
       </div>
       <div class="row">
         <?php foreach ($products as $product) { ?>
@@ -117,7 +86,7 @@
             <div>
               <div class="caption">
                 <h4><a href="<?php echo $product['href']; ?>"><?php echo $product['name']; ?></a></h4>
-                <p><?php echo $product['description']; ?></p>
+                <p><?php echo $product['description']; ?></p> 
                 <?php if ($product['price']) { ?>
                 <p class="price">
                   <?php if (!$product['special']) { ?>
@@ -130,23 +99,9 @@
                   <?php } ?>
                 </p>
                 <?php } ?>
-                <?php if ($product['rating']) { ?>
-                <div class="rating">
-                  <?php for ($i = 1; $i <= 5; $i++) { ?>
-                  <?php if ($product['rating'] < $i) { ?>
-                  <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-2x"></i></span>
-                  <?php } else { ?>
-                  <span class="fa fa-stack"><i class="fa fa-star fa-stack-2x"></i><i class="fa fa-star-o fa-stack-2x"></i></span>
-                  <?php } ?>
-                  <?php } ?>
-                </div>
-                <?php } ?>
+              
               </div>
-              <div class="button-group">
-                <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>', '<?php echo $product['minimum']; ?>');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $button_cart; ?></span></button>
-                <button type="button" data-toggle="tooltip" title="<?php echo $button_wishlist; ?>" onclick="wishlist.add('<?php echo $product['product_id']; ?>');"><i class="fa fa-heart"></i></button>
-                <button type="button" data-toggle="tooltip" title="<?php echo $button_compare; ?>" onclick="compare.add('<?php echo $product['product_id']; ?>');"><i class="fa fa-exchange"></i></button>
-              </div>
+
             </div>
           </div>
         </div>

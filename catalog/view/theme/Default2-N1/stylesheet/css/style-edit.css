@@ -448,16 +448,16 @@ legend {
   /* background: #11b1e2; */
   background: #8fe5ff;
 }
-#Equinos {
+#Equinos, #Equines {
   border-left-color: rgb(221, 48, 48);;
 }
-#Grandes {
+#Grandes, #Large {
   border-left-color: rgb(77, 221, 48);
 }
-#Pequeños {
+#Pequeños, #Small {
   border-left-color: rgb(48, 221, 198);
 }
-#Cosmeticos {
+#Cosmeticos, #Cosmetics {
   border-left-color: rgb(221, 48, 91);
 }
 
@@ -524,16 +524,16 @@ legend {
 }
 
 
-#Equinos::before {
+#Equinos::before, #Equines::before {
   background: rgb(221, 48, 48);
 }
-#Grandes::before {
+#Grandes::before, #Large::before {
   background: rgb(77, 221, 48);
 }
-#Pequeños::before {
+#Pequeños::before, #Small::before {
   background: rgb(48, 221, 198);
 }
-#Cosmeticos::before {
+#Cosmeticos::before, #Cosmetics::before {
   background: rgb(221, 48, 91);
 }
 #Anestesicos::hover {
