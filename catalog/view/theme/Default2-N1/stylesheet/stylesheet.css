@@ -132,6 +132,7 @@ div.required .control-label:before {
 /* search */
 #search {
 	margin-bottom: 10px;
+	width: 250px;
 }
 #search .input-lg {
 	height: 40px;

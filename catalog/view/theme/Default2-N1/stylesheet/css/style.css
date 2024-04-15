@@ -403,7 +403,11 @@ hr {
 
 #search .input-lg {
   height: 40px;
-  width: 200px;
+  width: 80%;
+}
+#search .input-search {
+  height: 40px;
+  width: 20%;
 }
 .open > .dropdown-menu {
   display: none;
