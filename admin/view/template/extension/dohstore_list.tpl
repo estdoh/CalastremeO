@@ -33,6 +33,9 @@
                   <p>Price: U$D 30</p>
                   <p><a href="#" class="btn btn-primary" target="_blank"><i class="fa fa-share"></i> Contact with de webmaster</a></p>
                 </div>
+                <div class="budgetstoreinstall">
+                  <span>Instaled</span>
+                </div>
               </div>
             </div>
             <div class="col-md-4 text-center">
@@ -67,6 +70,9 @@
                   <p>Add the google Analitics to your application</p>
                   <p>Price: U$D 20</p>
                   <p><a href="#" class="btn btn-primary" target="_blank"><i class="fa fa-share"></i> Contact with de webmaster</a></p>
+                </div>
+                <div class="budgetstoreinstall">
+                  <span>Instaled</span>
                 </div>
               </div>
             </div>
