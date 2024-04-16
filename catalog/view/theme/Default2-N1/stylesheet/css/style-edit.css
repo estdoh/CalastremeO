@@ -500,7 +500,7 @@ legend {
   border-left-color: #9b10ad;
 }
 #Reproduccion{
-  border-left-color: #ff85da;
+  border-left-color: rgb(252, 197, 96);
 }
 #Protectores{
   border-left-color: #1ccec5;
@@ -583,7 +583,7 @@ legend {
   background: #9b10ad;
 }
 #Reproduccion:before {
-  background: #ff85da;
+  background: rgb(252, 197, 96);
 }
 #Protectores:before {
   background: #1ccec5;
