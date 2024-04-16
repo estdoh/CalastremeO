@@ -281,7 +281,7 @@ ul {
     color: #ffffff;
 }
 
-.anestesicos {
+.Anestésicos {
   list-style: none;
   background-color: #0080ff;
   color: white !important;
@@ -461,10 +461,10 @@ legend {
   border-left-color: rgb(221, 48, 91);
 }
 
-#Antibioticos {
+#Antibióticos {
   border-left-color: rgb(0, 183, 255);
 }
-#Anestesicos {
+#Anestésicos {
   border-left-color: rgb(92, 54, 54);
 }
 #Antiinflamatorios {
@@ -487,19 +487,19 @@ legend {
   border-left-color: orangered;
 }
 
-#Diureticos {
+#Diuréticos {
   border-left-color: #9ece1c;
 }
 #Hepatoprotectores{
   border-left-color: #9b10ad;
 }
-#Neuroliticos {
+#Neurolíticos {
   border-left-color: #828ad4;
 }
 #Carminativo {
   border-left-color: #9b10ad;
 }
-#Reproduccion{
+#Reproducción{
   border-left-color: rgb(252, 197, 96);
 }
 #Protectores{
@@ -511,11 +511,11 @@ legend {
 #Suplementos {
   border-left-color: red;
 }
-#Tonicos {
+#Tónicos {
   border-left-color: bisque;
 }
 
-#Tocoliticos {
+#Tocolíticos {
   border-left-color: #9ece1c;
 }
 
@@ -536,11 +536,11 @@ legend {
 #Cosmeticos::before, #Cosmetics::before {
   background: rgb(221, 48, 91);
 }
-#Anestesicos:before {
+#Anestésicos:before {
   background: rgb(92, 54, 54);
   color: white;
 }
-#Antibioticos:before {
+#Antibióticos:before {
   background: rgb(0, 183, 255);
 }
 #Antiinflamatorios:before {
@@ -570,19 +570,19 @@ legend {
   color: white;
 }
 
-#Diureticos:before {
+#Diuréticos:before {
   background: #9ece1c;
 }
 #Hepatoprotectores:before {
   background: #9b10ad;
 }
-#Neuroliticos:before {
+#Neurolíticos:before {
   background: #828ad4;
 }
 #Carminativo:before {
   background: #9b10ad;
 }
-#Reproduccion:before {
+#Reproducción:before {
   background: rgb(252, 197, 96);
 }
 #Protectores:before {
@@ -595,11 +595,11 @@ legend {
   background: red;
   color: white;
 }
-#Tonicos:before {
+#Tónicos:before {
   background: bisque;
 }
 
-#Tocoliticos:before {
+#Tocolíticos:before {
   background: #9ece1c;
 }
 
