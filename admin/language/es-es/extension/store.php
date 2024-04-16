@@ -18,5 +18,7 @@ $_['text_feed']        = 'Feeds de productos';
 $_['text_report']      = 'Reportes';
 $_['text_other']       = 'Otros';
 
+$_['text_extensions']   = 'Most Popular Extensions';
+
 // Error
 $_['error_permission'] = 'Error: No tienes permiso para modificar extensiones!';

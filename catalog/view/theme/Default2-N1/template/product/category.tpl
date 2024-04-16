@@ -27,32 +27,30 @@
       <hr>
       <?php } ?>
       <?php if ($categories) { ?>
-      <h3><?php echo $text_refine; ?></h3>
-      <?php if (count($categories) <= 5) { ?>
-      <div class="row pt-4 pb-4">
-        <div class="col-sm-4">
-          <ul class="d-flex">
-            <?php foreach ($categories as $category) { ?>
-            <li><a class="btn btn-sm w-100 my-1" id="<?php $words = explode(" ", $category['name']); echo $words[0] ?>" href="<?php echo $category['href']; ?>"><?php echo $category['name']; ?></a></li>
+        <h3><?php echo $text_refine; ?></h3>
+        <?php if (count($categories) <= 5) { ?>
+          <div class="row pt-4 pb-4">
+            <div class="col-sm-4">
+              <ul class="d-flex">
+                <?php foreach ($categories as $category) { ?>
+                <li><a class="btn btn-sm w-100 my-1" id="<?php $words = explode(" ", $category['name']); echo $words[0] ?>" href="<?php echo $category['href']; ?>"><?php echo $category['name']; ?></a></li>
+                <?php } ?>
+              </ul>              
+            </div>
+          </div>
+        <?php } else { ?>
+          <div class="row pt-4 pb-4">
+            <?php foreach (array_chunk($categories, ceil(count($categories) / 3)) as $categories) { ?>
+              <div class="col-sm-4">
+                <ul>
+                  <?php foreach ($categories as $category) { ?>
+                  <li><a class="btn btn-sm w-100 my-1" id="<?php $words = explode(" ", $category['name']); echo $words[0] ?>" href="<?php echo $category['href']; ?>"><?php echo $category['name']; ?></a></li>
+                  <?php } ?>
+                </ul>
+              </div>
             <?php } ?>
-          </ul>
-          
-        </div>
-      </div>
-      <?php } else { ?>
-      <div class="row pt-4 pb-4">
-        <?php foreach (array_chunk($categories, ceil(count($categories) / 3)) as $categories) { ?>
-        <div class="col-sm-4">
-          <ul>
-            <?php foreach ($categories as $category) { ?>
-            <li><a class="btn btn-sm w-100 my-1" id="<?php $words = explode(" ", $category['name']); echo $words[0] ?>" href="<?php echo $category['href']; ?>"><?php echo $category['name']; ?></a></li>
-            <?php } ?>
-          </ul>
-        </div>
-        <?php } ?>
-        
-      </div>
-      <hr>
+          </div>
+          <hr>
       <?php } ?>
       <?php } ?>
       

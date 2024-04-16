@@ -3,129 +3,62 @@
   <div class="page-header">
     <div class="container-fluid">
       <h1><?php echo $heading_title; ?></h1>
-      <ul class="breadcrumb">
-        <?php foreach ($breadcrumbs as $breadcrumb) { ?>
+      <!--<ul class="breadcrumb">
+         <?php foreach ($breadcrumbs as $breadcrumb) { ?>
         <li><a href="<?php echo $breadcrumb['href']; ?>"><?php echo $breadcrumb['text']; ?></a></li>
         <?php } ?>
-      </ul>
-    </div>
+      </ul> -->
+    </div> 
   </div>
   <div class="container-fluid">
     <div class="panel panel-default">
       <div class="panel-heading">
-        <h3 class="panel-title"><i class="fa fa-puzzle-piece"></i> <?php echo $text_list; ?></h3>
+        <h3 class="panel-title"><i class="fa fa-puzzle-piece"></i> <?php echo $text_extensions; ?></h3>
       </div>
       <div class="panel-body">
 
-        <div class="well">
-          
+        <div class="">
+          <p>* Contact the webmaster to request installation</p>
         </div>
-       <!-- </fieldset>-->
+       <!-- </fieldset>   <?php echo $text_list; ?> -->
         <div id="store">
-          <!-- generate 6div con boostrap para presentar opciones que tengan con una imagen, titulo y un parrafo corto -->
           <div class="row">
-            <div class="col-md-4 text-center">
-              <div class="thumbnail">
-                <img src="../image/store/User_Permission.jpg" alt="Store 1" title="Store 1" class="img-responsive w-100" />
-                <div class="caption">                
-                  <h4>Manage user</h4>
-                  <p>Sset more than 2 user to admin this page and manege your permissions</p>
-                  <p>Price: U$D 30</p>
-                  <p><a href="#" class="btn btn-primary" target="_blank"><i class="fa fa-share"></i> Contact with de webmaster</a></p>
-                </div>
-                <div class="budgetstoreinstall">
-                  <span>Instaled</span>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4 text-center">
-              <div class="thumbnail">
-                <img src="../image/store/Excel_Import_export.jpg" alt="Store 2" title="Store 2" class="img-responsive w-100" />
-                <div class="caption">
-                  <h4>Report products view</h4>
-                  <p>Active report to products view on this site</p>
-                  <!-- add price -->
-                  <p>Price: U$D 20</p>
-                  <p><a href="#" class="btn btn-primary" target="_blank"><i class="fa fa-share"></i> Contact with de webmaster</a></p>
+          <?php if ($extensions) { ?>
+            <?php foreach ($extensions as $extension) { ?>
+              <div class="col-sm-12 col-md-6 col-lg-4 text-center">
+                <div class="thumbnail t-extensions">
+                  <img src="<?php if($extension['images'] != null){
+                                    echo $extension['images'];
+                                    }else{
+                                      echo '../image/store/no-imagen.png';
 
+                  } ?>" alt="Store 1" title="Store 1" class="img-responsive w-100" />
+                  <div class="caption">                
+                    <h4><span class="text-uppercase font-weight-bold"><?php echo $extension['name']; ?></span></h4>
+                    <p><span class="font-italic"><?php echo $extension['description']; ?></span></p>
+                    <p>Price: U$D <?php echo $extension['price']; ?></p>
+                    
+                  </div>
+                  <?php if ($extension['install'] == '1') { ?>
+                    <div class="budgetstoreinstall">
+                      <span>Instaled</span>
+                    </div>
+                  <?php } else { ?>
+                  <div class="d-flex justify-content-center">
+                    <img class="img-user mr-2" src="<?php echo $extension['user']; ?>" alt="user">
+                    <p><a alt="#<?php echo $extension['nro_referencia']; ?>" class="btn" target="_blank"><i class="fa fa-share"></i> Ref Nº #<?php echo $extension['nro_referencia']; ?></a></p>
+                  </div>
+                  <?php } ?>
+                  
                 </div>
               </div>
-            </div>
-            <div class="col-md-4 text-center">
-              <div class="thumbnail">
-                <img src="../image/store/Coupons.jpg" alt="Store 3" title="Store 3" class="img-responsive w-100" />
-                <div class="caption">
-                  <h4>Discount coupons</h4>
-                  <p>coupons Discount for your stores</p>
-                  <p>Price: U$D 20</p>
-                  <p><a href="#" class="btn btn-primary" target="_blank"><i class="fa fa-share"></i> Contact with de webmaster</a></p>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4 text-center">
-              <div class="thumbnail">
-                <img src="../image/store/GoogleAnalitics.jpg" alt="Store 3" title="Store 3" class="img-responsive w-100" />
-                <div class="caption">
-                  <h4>Add google Analitics</h4>
-                  <p>Add the google Analitics to your application</p>
-                  <p>Price: U$D 20</p>
-                  <p><a href="#" class="btn btn-primary" target="_blank"><i class="fa fa-share"></i> Contact with de webmaster</a></p>
-                </div>
-                <div class="budgetstoreinstall">
-                  <span>Instaled</span>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4 text-center">
-              <div class="thumbnail">
-                <img src="../image/store/Excel_Import_export.jpg" alt="Store 3" title="Store 3" class="img-responsive w-100" />
-                <div class="caption">
-                  <h4>Extendes product Limit</h4>
-                  <p> Extends the limit of the product limit( +150 -500) to your store</p>
-                  <p>Price: U$D 20</p>
-                  <p><a href="#" class="btn btn-primary" target="_blank"><i class="fa fa-share"></i> Contact with de webmaster</a></p>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4 text-center">
-              <div class="thumbnail">
-                <img src="../image/store/Excel_Import_export.jpg" alt="Store 3" title="Store 3" class="img-responsive w-100" />
-                <div class="caption">
-                  <h4>Discount coupons</h4>
-                  <p>coupons Discount for your stores</p>
-                  <p>Price: U$D 20</p>
-                  <p><a href="#" class="btn btn-primary" target="_blank"><i class="fa fa-share"></i> Contact with de webmaster</a></p>
-                </div>
-              </div>
-            </div>
-        
+            <?php } ?>
+          <?php } ?>
+          
         </div>
       </div>
     </div>
   </div>
-  <script type="text/javascript"><!--
-$('#button-filter').bind('click', function(e) {
-	var node = this;
 
-	$.ajax({
-		url: 'index.php?route=extension/store/store&token=<?php echo $token; ?>',
-		dataType: 'html',
-		beforeSend: function() {
-			$(node).prop('disabled', true);
-		},
-		complete: function() {
-			$(node).prop('disabled', false);
-		},
-		success: function(html) {
-			$('#store').html(html);
-		},
-		error: function(xhr, ajaxOptions, thrownError) {
-			alert(thrownError + "\r\n" + xhr.statusText + "\r\n" + xhr.responseText);
-		}
-	});
-});
-
-$('#button-filter').trigger('click');
-//--></script>
 </div>
 <?php echo $footer; ?>

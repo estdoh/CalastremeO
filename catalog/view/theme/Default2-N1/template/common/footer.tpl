@@ -62,10 +62,10 @@
           <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
           <li><a href="<?php echo $newsletter; ?>"><?php echo $text_newsletter; ?></a></li> 
           <li><a href="#"><?php echo $text_newsletter; ?></a></li> -->
-          <li><a href="products"><?php echo $text_cat_all; ?></a></li>
-          <li><a href="productsEquinos"><?php echo $text_cat_equines; ?></a></li>
-          <li><a href="productsGrandesAnimales"><?php echo $text_cat_large; ?></a></li>
-          <li><a href="productsPequenosAnimales"><?php echo $text_cat_small; ?></a></li>
+          <li><a href="Products"><?php echo $text_cat_all; ?></a></li>
+          <li><a href="Equinos"><?php echo $text_cat_equines; ?></a></li>
+          <li><a href="GrandesAnimales"><?php echo $text_cat_large; ?></a></li>
+          <li><a href="PequenosAnimales"><?php echo $text_cat_small; ?></a></li>
         </ul>
     </div>
     </div>

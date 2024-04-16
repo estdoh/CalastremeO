@@ -481,26 +481,26 @@ legend {
   border-left-color: yellow;
 }
 #Carminativo {
-  border-left-color: black;
+  border-left-color: #9b10ad;
 }
 #Cicatrizantes {
-  border-left-color: black;
+  border-left-color: orangered;
 }
 
 #Diureticos {
   border-left-color: #9ece1c;
 }
 #Hepatoprotectores{
-  border-left-color: violet;
+  border-left-color: #9b10ad;
 }
 #Neuroliticos {
-  border-left-color: #c482d4;
+  border-left-color: #828ad4;
 }
 #Carminativo {
-  border-left-color: #9ece1c;
+  border-left-color: #9b10ad;
 }
 #Reproduccion{
-  border-left-color: #fdff85;
+  border-left-color: #ff85da;
 }
 #Protectores{
   border-left-color: #1ccec5;
@@ -536,7 +536,7 @@ legend {
 #Cosmeticos::before, #Cosmetics::before {
   background: rgb(221, 48, 91);
 }
-#Anestesicos::hover {
+#Anestesicos:before {
   background: rgb(92, 54, 54);
   color: white;
 }
@@ -548,6 +548,11 @@ legend {
 }
 #Antiparasitarios:before {
   background: purple;
+  color: white;
+}
+#Antiparasitarios::hover {
+  background: purple;
+  color: white;
 }
 #Anticatarral:before {
   background: #b12978;
@@ -561,7 +566,7 @@ legend {
   color: white;
 }
 #Cicatrizantes:before {
-  background: black;
+  background: orangered;
   color: white;
 }
 
@@ -569,16 +574,16 @@ legend {
   background: #9ece1c;
 }
 #Hepatoprotectores:before {
-  background: violet;
+  background: #9b10ad;
 }
 #Neuroliticos:before {
-  background: #c482d4;
+  background: #828ad4;
 }
 #Carminativo:before {
-  background: #9ece1c;
+  background: #9b10ad;
 }
 #Reproduccion:before {
-  background: #fdff85;
+  background: #ff85da;
 }
 #Protectores:before {
   background: #1ccec5;
