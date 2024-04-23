@@ -100,8 +100,8 @@
                 <div class="logo">
                     <!-- logo-1 -->
                     <a href="#" class="big-logo"><img src="image\catalog\calastreme\logo\logo2_footer2.png" alt=""></a>
-                    <!-- logo-2 -->
-                    <a href="#" class="small-logo"><img src="image\catalog\calastreme\logo\logo2_footer2.png" alt=""></a>
+                    <!-- logo-2 
+                    <a href="#" class="small-logo"><img src="image\catalog\calastreme\logo\logo2_footer2.png" alt=""></a> -->
                 </div>
             </div>
             <div class="col-xl-8 col-lg-8 col-md-8">

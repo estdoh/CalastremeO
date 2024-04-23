@@ -20,7 +20,7 @@ $_['text_mailus']      = 'Correo';
 $_['text_findus']      = 'Donde estamos';
 $_['text_aboutus']      = 'La linea mas completa de productos veterinarios!';
 $_['text_cat_all']      = 'Todos';
-$_['text_cat_small']      = 'Animales Pequeños';
-$_['text_cat_large']      = 'Animales Grandes';
+$_['text_cat_small']      = 'Pequeños Animales';
+$_['text_cat_large']      = 'Grandes Animales';
 $_['text_cat_equines']      = 'Equinos';
 

@@ -379,7 +379,9 @@ hr {
 }
 
 .btnheader:hover {
-  background: #8ed2eb;
+  /* background: #8ed2eb; */
+  color: #8ed2eb;
+  background: transparent;
 }
 
 .btnProduct {
@@ -397,8 +399,8 @@ hr {
 .btn-secondary:not(:disabled):not(.disabled).active,
 .btn-secondary:not(:disabled):not(.disabled):active,
 .show > .btn-secondary.dropdown-toggle {
-  color: #fff;
-  background-color: #8ed2eb;
+  color: #8ed2eb;
+    background-color: transparent;
 }
 
 #search .input-lg {
@@ -497,13 +499,13 @@ hr {
 }
 .btn.hero-btn {
   position: relative;
-  box-shadow: -8px 8px 0 #ca611b;
+  /* box-shadow: -8px 8px 0 #ca611b; */
 }
 .btn.hero-btn:hover {
-  box-shadow: 8px 8px 0 #ca611b;
+  /* box-shadow: 8px 8px 0 #ca611b; */
 }
 .arrow-btn {
-  background: #f27420;
+  /* background: #f27420; */
   padding: 19px 15px;
   display: inline-block;
   line-height: 0;
@@ -2208,7 +2210,7 @@ hr {
   font-weight: 500;
   font-weight: bolder;
   /* text-transform: uppercase; */
-  padding: 39px 19px;
+  padding: 39px 8px;
   display: block;
   font-size: 14px;
   -webkit-transition: all 0.3s ease-out 0s;
@@ -2219,9 +2221,9 @@ hr {
   text-transform: capitalize;
 }
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
-  .main-header .main-menu ul li a {
+  /* .main-header .main-menu ul li a {
     padding: 39px 14px;
-  }
+  } */
 }
 .main-header .main-menu ul li:hover > a {
   color: #8ed2eb;
