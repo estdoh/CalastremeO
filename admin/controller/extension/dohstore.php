@@ -3,8 +3,10 @@ class ControllerExtensionDohStore extends Controller {
 	public function index() {
 		$this->load->language('extension/store');
 		$this->document->setTitle($this->language->get('heading_title'));
-		 $this->load->model('extension/dohstore');
-		 $results = $this->model_extension_dohstore->getList();
+		$this->load->model('extension/dohstore');
+		$results = $this->model_extension_dohstore->getList();
+		$plans = $this->model_extension_dohstore->getPlans();
+
 		// $data['extensions'] = $this->model_extension_dohstore->getList();
 		foreach ($results as $result) {
 			$data['extensions'][] = array(
@@ -19,6 +21,18 @@ class ControllerExtensionDohStore extends Controller {
 				'nro_referencia' 	=> $result['nro_referencia'],
 			);
 		}
+
+		foreach ($plans as $plan) {
+			$data['plans'][] = array(
+				'id' => $plan['id'],
+				'name'       => $plan['name'],
+				'description'      => $plan['description'],
+				'price'      => $plan['price'],
+				'images'      => $plan['images'],
+				'observation'      => $plan['observation'],
+				'status'      => $plan['install'],				
+			);
+		}		
 
 		$data['text_extensions'] = $this->language->get('text_extensions');
 

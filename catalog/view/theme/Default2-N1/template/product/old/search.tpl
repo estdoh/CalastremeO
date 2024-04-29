@@ -17,10 +17,10 @@
       <h1 class="p-4"><?php echo $heading_title; ?></h1>
       <!-- <label class="control-label" for="input-search"><?php echo $entry_search; ?></label> -->
       <div class="row">
-        <div class="col-sm-12 col-md-4 col-lg-3 py-2">
-          <input type="text" name="search" value="<?php echo $search; ?>" placeholder="<?php echo $text_keyword; ?>" id="input-search" class="nice-select w-100" />
+        <div class="col-sm-3">
+          <input type="text" name="search" value="<?php echo $search; ?>" placeholder="<?php echo $text_keyword; ?>" id="input-search" class="nice-select" />
         </div>
-        <div class="col-sm-12 col-md-4 col-lg-3 py-2">
+        <div class="col-sm-3">
           <select name="category_id" class="form-control">
             <option value="0"><?php echo $text_category; ?></option>
             <?php foreach ($categories as $category_1) { ?>
@@ -35,24 +35,47 @@
             <?php } else { ?>
             <option value="<?php echo $category_2['category_id']; ?>">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<?php echo $category_2['name']; ?></option>
             <?php } ?>
-            
+            <!-- <?php foreach ($category_2['children'] as $category_3) { ?>
+            <?php if ($category_3['category_id'] == $category_id) { ?>
+            <option value="<?php echo $category_3['category_id']; ?>" selected="selected">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<?php echo $category_3['name']; ?></option>
+            <?php } else { ?>
+            <option value="<?php echo $category_3['category_id']; ?>">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<?php echo $category_3['name']; ?></option>
+            <?php } ?>
+            <?php } ?> -->
             <?php } ?>
             <?php } ?>
           </select>
         </div>
-        <div class="col-sm-12 col-md-4 col-lg-3 py-2">
+        <div class="col-sm-3">
         <input type="button" value="<?php echo $button_search; ?>" id="button-search" class="btn btn-primary" />
-          
+          <!--<label class="checkbox-inline">
+            <?php if ($sub_category) { ?>
+            <input type="checkbox" name="sub_category" value="1" checked="checked" />
+            <?php } else { ?>
+            <input type="checkbox" name="sub_category" value="1" />
+            <?php } ?>
+             <?php echo $text_sub_category; ?> </label> -->
         </div>
       </div>
-
+      <!-- <p>
+        <label class="checkbox-inline">
+          <?php if ($description) { ?>
+          <input type="checkbox" name="description" value="1" id="description" checked="checked" />
+          <?php } else { ?>
+          <input type="checkbox" name="description" value="1" id="description" />
+          <?php } ?>
+          <?php echo $entry_description; ?></label>
+      </p> -->
       
       
       <?php if ($products) { ?>
       <h2 class="pt-5"><?php echo $text_search; ?></h2>
       <div class="row pt-5">
         <div class="col-md-2 col-sm-6 hidden-xs">
-         
+         <!-- <div class="btn-group btn-group-sm">
+            <button type="button" id="list-view" class="btn btn-default" data-toggle="tooltip" title="<?php echo $button_list; ?>"><i class="fa fa-th-list"></i></button>
+            <button type="button" id="grid-view" class="btn btn-default" data-toggle="tooltip" title="<?php echo $button_grid; ?>"><i class="fa fa-th"></i></button>
+          </div> -->
         </div>
 
       </div>

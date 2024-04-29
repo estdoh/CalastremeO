@@ -100,8 +100,8 @@
                 <div class="logo">
                     <!-- logo-1 -->
                     <a href="#" class="big-logo"><img src="image\catalog\calastreme\logo\logo2_footer2.png" alt=""></a>
-                    <!-- logo-2 
-                    <a href="#" class="small-logo"><img src="image\catalog\calastreme\logo\logo2_footer2.png" alt=""></a> -->
+                    <!-- logo-2 -->
+                    <a href="#" class="small-logo"><img src="image\catalog\calastreme\logo\logo2_footer2.png" alt=""></a> 
                 </div>
             </div>
             <div class="col-xl-8 col-lg-8 col-md-8">
@@ -114,20 +114,8 @@
                             <li><a href="products"><?php echo $text_products ?></a></li>                            
                             <li><a href="index.php?route=information/contact"><?php echo $text_contact; ?></a></li>
                             <li><a href="comex"><?php echo $text_comex; ?></a></li>
-                            <li>
-                              <div class="dropdown">
-                                <button class="btnheader btn-secondary btn-sm dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                  <i class="fa fa-search" aria-hidden="true"></i>
-                                </button>
-                                <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenu2">
-                                  <?php echo $search; ?>
-                                </div>
-                              </div>
-                            </li>
-                            <li>
-                              
-                              
-                            </li>
+                            <li><a href="index.php?route=product/search"><i class="fa fa-search" aria-hidden="true"></i></a></li>
+                           
                         </ul>
                     </nav>
                     

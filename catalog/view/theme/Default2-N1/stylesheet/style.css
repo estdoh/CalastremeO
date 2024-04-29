@@ -69,7 +69,3 @@ p{
     color: white;
     font-size: 12px;
 }
-
-.btn-secondary:not(:disabled):not(.disabled).active:focus, .btn-secondary:not(:disabled):not(.disabled):active:focus, .show>.btn-secondary.dropdown-toggle:focus {
-    box-shadow: 0 0 0 0.2rem rgba(108,117,125,0);
-}

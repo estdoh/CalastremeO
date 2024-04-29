@@ -501,9 +501,9 @@ hr {
   position: relative;
   /* box-shadow: -8px 8px 0 #ca611b; */
 }
-.btn.hero-btn:hover {
-  /* box-shadow: 8px 8px 0 #ca611b; */
-}
+/*.btn.hero-btn:hover {
+   box-shadow: 8px 8px 0 #ca611b;
+} */
 .arrow-btn {
   /* background: #f27420; */
   padding: 19px 15px;
