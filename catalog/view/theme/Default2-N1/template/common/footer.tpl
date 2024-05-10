@@ -34,10 +34,14 @@
   <hr>
   <div class="container pb-5 ">
     <div class="col-md-6 col-sm-12 pt-5">
-      <a href="index.html" class="big-logo">
-        <img src="image\catalog\calastreme\logo\logo_footer_Color.png" alt="">
+      <a href="index.html" class="big-logo-footer">
+        <img src="image\catalog\Logo_color_vertical.png" alt="">
+
       </a>
-        <!-- <h2 class="p-5"><?php echo $text_aboutus; ?></h2> -->
+        <!--     
+            <img src="image\catalog\calastreme\logo\logo_footer_Color.png" alt="">
+            <h2 class="p-5"><?php echo $text_aboutus; ?></h2>  
+        -->
     </div>
     <div class="row pt-5">
       <?php if ($informations) { ?>
@@ -66,6 +70,7 @@
           <li><a href="Equinos"><?php echo $text_cat_equines; ?></a></li>
           <li><a href="GrandesAnimales"><?php echo $text_cat_large; ?></a></li>
           <li><a href="PequenosAnimales"><?php echo $text_cat_small; ?></a></li>
+          <li><a href="Cosméticos"><?php echo $text_cat_cosmetics; ?></a></li>
         </ul>
     </div>
     </div>

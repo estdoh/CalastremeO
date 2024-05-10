@@ -23,3 +23,4 @@ $_['text_cat_all']      = 'All Products';
 $_['text_cat_small']      = 'Small Animals';
 $_['text_cat_large']      = 'Large Animals';
 $_['text_cat_equines']      = 'Equines';
+$_['text_cat_cosmetics']      = 'Cosmetics';

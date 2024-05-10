@@ -463,7 +463,7 @@ legend {
 #Pequeños, #Small {
   border-left-color: rgb(48, 221, 198);
 }
-#Cosmeticos, #Cosmetics {
+#Cosméticos, #Cosmetics {
   border-left-color: rgb(221, 48, 91);
 }
 
@@ -539,7 +539,7 @@ legend {
 #Pequeños::before, #Small::before {
   background: rgb(48, 221, 198);
 }
-#Cosmeticos::before, #Cosmetics::before {
+#Cosméticos::before, #Cosmetics::before {
   background: rgb(221, 48, 91);
 }
 #Anestésicos:before {
@@ -663,6 +663,9 @@ legend {
   }
 .big-logo > img{
   width: 250px;
+}
+.big-logo-footer > img{
+  width: 200px;
 }
 
 h2 .img-fluid {
