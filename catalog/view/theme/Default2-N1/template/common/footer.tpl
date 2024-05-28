@@ -58,14 +58,10 @@
       <?php } ?>
     
       <div class="col">
-        <!-- <h5><?php echo $text_account; ?></h5> -->
+       
         <h5>Categorias</h5>
         <ul class="list-unstyled">
-          <!-- <li><a href="<?php echo $account; ?>"><?php echo $text_account; ?></a></li>
-          <li><a href="<?php echo $order; ?>"><?php echo $text_order; ?></a></li>
-          <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
-          <li><a href="<?php echo $newsletter; ?>"><?php echo $text_newsletter; ?></a></li> 
-          <li><a href="#"><?php echo $text_newsletter; ?></a></li> -->
+         
           <li><a href="Products"><?php echo $text_cat_all; ?></a></li>
           <li><a href="Equinos"><?php echo $text_cat_equines; ?></a></li>
           <li><a href="GrandesAnimales"><?php echo $text_cat_large; ?></a></li>
@@ -99,8 +95,9 @@
 	
 		<!-- All JS Custom Plugins Link Here here -->
         <script src="catalog/view/javascript/js/vendor/modernizr-3.5.0.min.js"></script>
-		<!-- Jquery, Popper, Bootstrap -->
-		                <!-- <script src="catalog/view/javascript/js/vendor/jquery-1.12.4.min.js"></script> -->
+		<!-- Jquery, Popper, Bootstrap 
+		                 <script src="catalog/view/javascript/js/vendor/jquery-1.12.4.min.js"></script> 
+          <script src="catalog/view/javascript/js/vendor/jquery-migrate-1.4.1.min.js"></script>       -->      
         <script src="catalog/view/javascript/js/vendor/jquery-3.6.0.min.js"></script>
         <script src="catalog/view/javascript/js/popper.min.js"></script>
         <script src="catalog/view/javascript/js/bootstrap.min.js"></script>
@@ -138,7 +135,7 @@
             <script src="catalog/view/javascript/js/plugins.js"></script>
             <script src="catalog/view/javascript/js/main.js"></script>
 
-            <script type="text/javascript" src="slick/slick.min.js"></script>
+            <!-- <script type="text/javascript" src="slick/slick.min.js"></script> -->	
 
 <script src="catalog/view/javascript/colorcategory.js"></script>
 

@@ -77,6 +77,7 @@
       </li>
     </ul>
   </div>
-
-  <img src="<?php echo $image; ?>" alt="<?php echo $firstname; ?> <?php echo $lastname; ?>" title="<?php echo $firstname; ?>" class="img-circle" />
+  <picture >
+    <img src="../image/catalog/users/doh-ch3.png" alt="doh ESTUDIO" style="width:50px" />
+  </picture>
 </nav>

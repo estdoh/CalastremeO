@@ -63,6 +63,7 @@ span.hidden-xs, span.hidden-sm, span.hidden-md, span.hidden-lg {
 	width: 100%;
 	position: relative;
 }
+
 .container-fluid {
 	padding-left: 20px;
 	padding-right: 20px;
@@ -480,6 +481,29 @@ input[type="checkbox"]:checked::after, .checkbox input[type="checkbox"]:checked:
 .panel {
 	border-radius: 0px;
 }
+
+.login-panel {
+	display: grid;
+	grid-template-columns: 45% 55%;
+	place-items: center;
+	/* background: #f6f6f6; */
+	/* width: min(700px, 95%); */
+	border-radius: 20px;
+}
+
+.left-side {
+	height: 100%;
+	width: 100%;
+	background-image: url(../image/login.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	pointer-events: none;
+	border-radius: 20px 0 0 20px;
+}
+.right-side {
+	padding: 10%;
+}
 .panel .panel-heading {
 	position: relative;
 }
@@ -513,7 +537,7 @@ input[type="checkbox"]:checked::after, .checkbox input[type="checkbox"]:checked:
 /* Default Panel */
 .panel-default {
 	border: 1px solid #e8e8e8;
-	border-top: 2px solid #bfbfbf;
+	/* border-top: 2px solid #bfbfbf; */
 }
 
 .panel-default .panel-heading {
@@ -540,7 +564,7 @@ input[type="checkbox"]:checked::after, .checkbox input[type="checkbox"]:checked:
 /* Tiles */
 .tile {
 	margin-bottom: 15px;
-	border-radius: 3px;
+	border-radius: 10px;
 	background-color: #279FE0;
 	color: #FFFFFF;
 	transition: all 1s;
@@ -555,7 +579,7 @@ input[type="checkbox"]:checked::after, .checkbox input[type="checkbox"]:checked:
 .tile-heading {
 	padding: 5px 8px;
 	text-transform: uppercase;
-	background-color: #1E91CF;
+	/* background-color: #1E91CF; */
 	color: #FFF;
 }
 .tile .tile-heading .pull-right {
@@ -645,3 +669,4 @@ input[type="checkbox"]:checked::after, .checkbox input[type="checkbox"]:checked:
 #filemanager .fa-folder.fa-5x {
 	font-size: 10.5em;
 }
+
