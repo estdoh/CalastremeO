@@ -3,7 +3,7 @@
   <div class="container-fluid"><br />
     <br />
     <div class="row justify-content-center">
-      <div class="col-sm-12 col-md-6">
+      <div class="col-sm-12 col-lg-6">
         <div class="login-panel panel-default">
           <div class="left-side"></div>
           <div class="right-side">

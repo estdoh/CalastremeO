@@ -63,7 +63,6 @@
   <link rel="stylesheet" href="catalog/view/theme/Default2-N1/stylesheet/css/style.css">
 
   <link rel="stylesheet" href="catalog/view/theme/Default2-N1/stylesheet/css/style-edit.css">
-a
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/v4-shims.css">
 
