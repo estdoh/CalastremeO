@@ -1,7 +1,7 @@
 <script src="//www.google.com/recaptcha/api.js" type="text/javascript"></script>
 <fieldset>
   <!--  <legend><?php echo $text_captcha; ?></legend> -->
-  <div class="form-group required">
+  <div class="form-group required d-flex justify-content-center">
     <?php if (substr($route, 0, 9) == 'checkout/') { ?>
     <label class="control-label" for="input-payment-captcha"><?php echo $entry_captcha; ?></label>
     <div id="input-payment-captcha" class="g-recaptcha" data-sitekey="<?php echo $site_key; ?>"></div>
