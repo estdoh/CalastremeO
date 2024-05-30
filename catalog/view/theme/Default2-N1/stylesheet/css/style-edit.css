@@ -422,6 +422,9 @@ legend {
   padding: 15px;
   color: #000;
   content: '';
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 #content > div > div > .pagination > li > a {
   border-left-width: 0px;
