@@ -138,5 +138,6 @@
             <!-- <script type="text/javascript" src="slick/slick.min.js"></script> -->	
 
 <script src="catalog/view/javascript/colorcategory.js"></script>
+<script src="catalog/view/javascript/maps.js"></script>
 
 </body></html>
