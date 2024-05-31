@@ -9,35 +9,35 @@ let paises= [{
     pais: "Qatar", 
     lat: 25.2326367, 
     lon: 51.4303141, 
-    description: "We have a big staff it is difficult to put Building 254, Al Furousiya street number 280,area 55. Shop number 1. Doha, Qatar. +974 50299920 - info@algalayelequinecenter.com",
-    ubicacion: "Al Furousiya 280, area 55, Doha, Qatar"
+    description: "We have a big staff it is difficult to put Building 254 - +974 50299920 - info@algalayelequinecenter.com",
+    ubicacion: "Al Furousiya 280, area 55, Shop number 1, Doha, Qatar"
     },
     {
     pais: "Paraguay",
     lat: -25.3169199,
     lon: -57.5919144,
-    description: "Wolf Lab. S.r.l. – Ruc. 80025346-9 - Aztecas n° 4020 esq. Veteranos del 70 - Asunción Tel.(021) 503 584 / Fax (021) 520 781",
+    description: "Wolf Lab. S.r.l. – Ruc. 80025346-9 - Tel.(021) 503 584 / Fax (021) 520 781",
     ubicacion: "Aztecas 4020, Asunción, Paraguay"
     },
     {
     pais: "Argentina",
     lat: -34.5002852,
     lon: -58.52060819999999,
-    description: "La paz 2150 – Martinez., Buenos Aires – Argentina - Tel. +5411 4580-9999", 
+    description: "Tel. +5411 4580-9999", 
     ubicacion: "La paz 2150 – Martinez., Buenos Aires – Argentina"
     },
     {
     pais: "Peru",
     lat: -12.0923402,
     lon: -76.977334,
-    description: "Animal Sport´s S.A. – Sr. Augusto Aguirre Carmona Av. M.Olguin – Cuadra 2 S/N (Hipódromo Monterrico) Perú Anisports@hotmail.com – 0051-1-4363854/4365994",
-    ubicacion: "Av. M.Olguin, Hipódromo Monterrico, Perú"
+    description: "Animal Sport´s S.A. - Anisports@hotmail.com – 0051-1-4363854/4365994",
+    ubicacion: "Av. M.Olguin – Cuadra 2 S/N, Hipódromo Monterrico, Perú"
     },
     {
     pais: "Republica Dominicana",
     lat: 18.4936771,
     lon: -69.7777347,
-    description: "Ordesch SRL Hipodromo V Centenario Av. Hipódromo, Santo Domingo Este Dr. Eugenio Deschamps. E-mail: ORDESCHLAB@GMAIL.COM Te: + 1 (849) 456 3503 +1 (809) 880-0208",
+    description: "Ordesch SRL Hipodromo V Centenario Dr. Eugenio Deschamps. E-mail: ORDESCHLAB@GMAIL.COM Te: + 1 (849) 456 3503 +1 (809) 880-0208",
     ubicacion: "Av. Hipódromo, Santo Domingo Este, republica dominicana"
     },
     {
