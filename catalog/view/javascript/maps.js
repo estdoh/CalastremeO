@@ -24,7 +24,7 @@ let paises= [{
     lat: -34.5002852,
     lon: -58.52060819999999,
     description: "La paz 2150 – Martinez., Buenos Aires – Argentina - Tel. +5411 4580-9999", 
-    ubicacion: "Calle 7 N° 1457, La Plata, Buenos Aires, Argentina"
+    ubicacion: "La paz 2150 – Martinez., Buenos Aires – Argentina"
     },
     {
     pais: "Peru",
