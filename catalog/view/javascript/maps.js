@@ -2,7 +2,7 @@ var map = L.map('map', {minZoom: 2, maxZoom: 5}).setView([0, 0], 0);
 
 L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
     scrollWheelZoom: true,
-    attribution: '<a href="#">DOHestudio maps</a>'
+    attribution: '<a href="https://dohestudio.com.ar">My Maps</a>'
 }).addTo(map);
 
 let paises= [{
