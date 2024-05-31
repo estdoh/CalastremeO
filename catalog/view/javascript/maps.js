@@ -1,8 +1,8 @@
-var map = L.map('map', {minZoom: 2, maxZoom: 0}).setView([0, 0], 0);
+var map = L.map('map', {minZoom: 2, maxZoom: 5}).setView([0, 0], 0);
 
 L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
-    maxZoom: 19,
-    attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+    scrollWheelZoom: true,
+    attribution: '<a href="#">DOHestudio maps</a>'
 }).addTo(map);
 
 let paises= [{
@@ -67,7 +67,7 @@ let paises= [{
 function createMakers(){
     paises.forEach(pais => {
         let marker = L.marker([pais.lat, pais.lon]).addTo(map);
-        console.log(pais);
+        // console.log(pais);
         marker.bindPopup(`<p>Pais: <b>${pais.pais}</b><br>
                             Descripción: ${pais.description}<br>
                             Ubicación: ${pais.ubicacion}`).openPopup();
