@@ -60,7 +60,7 @@ let paises= [{
         lon: -58.52060819999999,
         description: "Tel. +5411 4580-9999", 
         ubicacion: "La paz 2150 – Martinez., Buenos Aires – Argentina"
-    },
+    }
 ];
 
 function createMakers(){
