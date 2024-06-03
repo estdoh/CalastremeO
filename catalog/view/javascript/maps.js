@@ -1,4 +1,4 @@
-var map = L.map('map', {minZoom: 2, maxZoom: 5}).setView([0, 0], 0);
+var map = L.map('map', {minZoom: 2, maxZoom: 5}).setView([20, 10], 0);
 
 L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
     scrollWheelZoom: true,
@@ -65,11 +65,13 @@ let paises= [{
 
 function createMakers(){
     paises.forEach(pais => {
-        let marker = L.marker([pais.lat, pais.lon]).addTo(map);
+        let marker = L.marker([pais.lat, pais.lon]);
         // console.log(pais);
         marker.bindPopup(`<p>Pais: <b>${pais.pais}</b><br>
                             Descripción: ${pais.description}<br>
                             Ubicación: ${pais.ubicacion}`).openPopup();
+                            
+                            marker.addTo(map);
     });
  }
 
