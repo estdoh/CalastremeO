@@ -108,6 +108,7 @@
         box-shadow: 0 0 0 1px rgba(68, 68, 68, 0.11);
         box-sizing: border-box;
         margin-top: 4px;
+        width: 100%;
         opacity: 0;
         overflow: hidden;
         padding: 0;
@@ -153,3 +154,28 @@
 
 .no-csspointerevents .nice-select.open .list {
   display: block; }
+
+
+
+
+  .nice-input {
+    
+      -webkit-tap-highlight-color: transparent;
+      color: #9d9d9d;
+      background-color: #fff;
+      border-radius: 5px;
+      border: solid 1px #1160ab;
+      font-family: inherit;
+      font-size: 16px;
+      font-weight: normal;
+      height: 52px;
+      padding-left: 21px;
+      padding-right: 54px;
+  
+  }
+    .¡nice-input:hover {
+      border-color: #dbdbdb; 
+    }
+    .nice-input:active, .nice-input.open, .nice-input:focus {
+      border-color: #1160ab; 
+    }

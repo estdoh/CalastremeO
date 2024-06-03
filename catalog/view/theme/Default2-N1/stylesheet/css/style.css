@@ -152,9 +152,9 @@ p {
 .f-right {
   float: right;
 }
-.fix {
+/* .fix {
   overflow: hidden;
-}
+} */
 .clear {
   clear: both;
 }

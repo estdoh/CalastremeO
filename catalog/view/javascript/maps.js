@@ -20,13 +20,6 @@ let paises= [{
     ubicacion: "Aztecas 4020, Asunción, Paraguay"
     },
     {
-    pais: "Argentina",
-    lat: -34.5002852,
-    lon: -58.52060819999999,
-    description: "Tel. +5411 4580-9999", 
-    ubicacion: "La paz 2150 – Martinez., Buenos Aires – Argentina"
-    },
-    {
     pais: "Peru",
     lat: -12.0923402,
     lon: -76.977334,
@@ -60,8 +53,14 @@ let paises= [{
     lon: 55.507961200000004,
     description: "Company name: Fursan alnile Mob : +971564717276",
     ubicacion: "Dubai camel market"
-    }
-
+    },
+    {
+        pais: "Argentina",
+        lat: -34.5002852,
+        lon: -58.52060819999999,
+        description: "Tel. +5411 4580-9999", 
+        ubicacion: "La paz 2150 – Martinez., Buenos Aires – Argentina"
+    },
 ];
 
 function createMakers(){

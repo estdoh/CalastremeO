@@ -18,7 +18,7 @@
       <!-- <label class="control-label" for="input-search"><?php echo $entry_search; ?></label> -->
       <div class="row">
         <div class="col-sm-12 col-md-4 col-lg-3 py-2">
-          <input type="text" name="search" value="<?php echo $search; ?>" placeholder="<?php echo $text_keyword; ?>" id="input-search" class="nice-select w-100" />
+          <input type="text" name="search" value="<?php echo $search; ?>" placeholder="<?php echo $text_keyword; ?>" id="input-search" class="nice-input w-100" />
         </div>
         <div class="col-sm-12 col-md-4 col-lg-3 py-2">
           <select name="category_id" class="form-control">
