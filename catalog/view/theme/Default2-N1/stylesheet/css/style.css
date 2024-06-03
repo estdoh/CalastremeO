@@ -1822,7 +1822,7 @@ hr {
 }
 .section-tittle .front-text h2 {
   color: #0e132a;
-  font-size: 70px;
+  /* font-size: 70px; */
   font-weight: 700;
   line-height: 1.2;
   text-transform: uppercase;
