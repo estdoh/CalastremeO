@@ -1,6 +1,6 @@
 <?php
 // Heading
-$_['heading_title']  = 'Contáctenos';
+$_['heading_title']  = 'Contáctenos - Calastremé';
 
 // Text
 $_['text_location']  = 'Nuestra Ubicación';
