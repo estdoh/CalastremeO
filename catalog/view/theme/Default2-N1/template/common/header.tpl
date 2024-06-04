@@ -129,7 +129,7 @@
                       <li><a href="index.php?route=information/contact">
                           <?php echo $text_contact; ?>
                         </a></li>
-                      <li><a href="comex">
+                      <li><a href="comercioExterior">
                           <?php echo $text_comex; ?>
                         </a></li>
                       <li><a href="index.php?route=product/search"><i class="fa fa-search" aria-hidden="true"></i></a>
