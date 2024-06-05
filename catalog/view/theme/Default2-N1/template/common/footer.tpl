@@ -48,7 +48,7 @@
       <div class="col">
         <h5><?php echo $text_information; ?></h5>
         <ul class="list-unstyled">
-          <li><a href="index.php?route=information/contact"><?php echo $text_contact; ?></a></li>
+          <li><a href="contacto"><?php echo $text_contact; ?></a></li>
           <?php foreach ($informations as $information) { ?>
             <li><a href="<?php echo $information['href']; ?>"><?php echo $information['title']; ?></a></li> 
           <!-- <li><a href="#"><?php echo $information['title']; ?></a></li> -->
@@ -62,7 +62,7 @@
         <h5>Categorias</h5>
         <ul class="list-unstyled">
          
-          <li><a href="Products"><?php echo $text_cat_all; ?></a></li>
+          <li><a href="Productos"><?php echo $text_cat_all; ?></a></li>
           <li><a href="Equinos"><?php echo $text_cat_equines; ?></a></li>
           <li><a href="GrandesAnimales"><?php echo $text_cat_large; ?></a></li>
           <li><a href="PequenosAnimales"><?php echo $text_cat_small; ?></a></li>

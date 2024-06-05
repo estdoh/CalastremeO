@@ -107,9 +107,9 @@
               <div class="col-xl-2 col-lg-2 col-md-1">
                 <div class="logo">
                   <!-- logo-1 -->
-                  <a href="#" class="big-logo"><img src="image\catalog\calastreme\logo\logo2_footer2.png" alt=""></a>
+                  <a href="" class="big-logo"><img src="image\catalog\calastreme\logo\logo2_footer2.png" alt=""></a>
                   <!-- logo-2 -->
-                  <a href="#" class="small-logo"><img src="image\catalog\calastreme\logo\logo2_footer2.png" alt=""></a>
+                  <a href="" class="small-logo"><img src="image\catalog\calastreme\logo\logo2_footer2.png" alt=""></a>
                 </div>
               </div>
               <div class="col-xl-8 col-lg-8 col-md-8">
@@ -117,22 +117,22 @@
                 <div class="main-menu f-right d-none d-lg-block uppercase">
                   <nav>
                     <ul id="navigation" class="text-uppercase">
-                      <li><a href="#">
+                      <li><a href="">
                           <?php echo $text_showhome; ?>
                         </a></li>
-                      <li><a href="about_us">
+                      <li><a href="nosotros">
                           <?php echo $text_about; ?>
                         </a></li>
-                      <li><a href="products">
+                      <li><a href="productos">
                           <?php echo $text_products ?>
                         </a></li>
-                      <li><a href="index.php?route=information/contact">
+                      <li><a href="contacto">
                           <?php echo $text_contact; ?>
                         </a></li>
-                      <li><a href="comercioExterior">
+                      <li><a href="comercioexterior">
                           <?php echo $text_comex; ?>
                         </a></li>
-                      <li><a href="index.php?route=product/search"><i class="fa fa-search" aria-hidden="true"></i></a>
+                      <li><a href="buscar"><i class="fa fa-search" aria-hidden="true"></i></a>
                       </li>
 
                     </ul>
