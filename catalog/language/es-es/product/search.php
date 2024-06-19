@@ -1,6 +1,6 @@
 <?php
 // Heading
-$_['heading_title']     = 'Búsqueda';
+$_['heading_title']     = 'Búsqueda - Calastreme';
 $_['heading_tag']		= 'Etiqueta - ';
 
 // Text
