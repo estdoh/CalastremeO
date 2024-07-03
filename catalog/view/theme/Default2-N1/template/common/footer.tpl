@@ -34,7 +34,7 @@
   <hr>
   <div class="container pb-5 ">
     <div class="col-md-6 col-sm-12 pt-5 d-flex">
-      <a href="index.html" class="big-logo-footer m-auto">
+      <a href="/" class="big-logo-footer m-auto">
         <img src="image\catalog\Logo_color_vertical.png" alt="">
 
       </a>
